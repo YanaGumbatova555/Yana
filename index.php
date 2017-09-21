@@ -1,6 +1,6 @@
 <html>
 <head>
-<Title>Registration Form</Title>
+<Title>Регистрационная форма</Title>
 <style type="text/css">
     body { background-color:
  #fff; border-top: solid 10px #000;
@@ -22,7 +22,7 @@ border: 0 none; }
 </style>
 </head>
 <body>
-<h1>Register here!</h1>
+<h1>Зарегестрируйтесь!</h1>
 <p>Fill in your name and 
 email address, then click <strong>Submit</strong> 
 to register.</p>
@@ -33,7 +33,7 @@ name="name" id="name"/></br>
       Email <input type="text" 
 name="email" id="email"/></br>
       <input type="submit" 
-name="submit" value="Submit" />
+name="submit" value="Подтвердить" />
 </form>
 <?php
 
