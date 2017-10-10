@@ -36,7 +36,7 @@ name="submit" value="Отправить" />
 </form>
 <?php
 try {
-$conn = new PDO("sqlsrv:server = tcp:gumb.database.windows.net,1433; Database = БазаДанных", "gumbatova.1997@mail.ru", "5556622w");
+$conn = new PDO("sqlsrv:server = tcp:gumb.database.windows.net,1433; Database = БазаДанных", "Яна", "5556622w");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) {
@@ -83,7 +83,7 @@ echo "<h3>No one is currently registered.</h3>";
 }
  
 try {
-$conn = new PDO("sqlsrv:server = tcp:gumb.database.windows.net,1433; Database = БазаДанных", "gumbatova.1997@mail.ru", "5556622w");
+$conn = new PDO("sqlsrv:server = tcp:gumb.database.windows.net,1433; Database = БазаДанных", "Яна", "5556622w");
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
  
 if(isset($_POST["submit2"]))
