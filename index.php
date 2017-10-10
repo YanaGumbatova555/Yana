@@ -85,7 +85,6 @@ echo "<h3>No one is currently registered.</h3>";
 try {
     $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-}
 if(isset($_POST["submit2"]))
 {
 $sql1 = "DELETE FROM registration_tbl";
