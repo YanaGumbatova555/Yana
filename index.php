@@ -36,12 +36,12 @@ name="submit" value="Отправить" />
 </form>
 <?php
 try {
-$conn = new PDO("sqlsrv:server = tcp:gumb.database.windows.net,1433; Database = БазаДанных", "Яна", "5556622w");
+    $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) {
-print("Error connecting to SQL Server.");
-die(print_r($e));
+    print("Error connecting to SQL Server.");
+    die(print_r($e));
 }
 if(!empty($_POST)) {
 try {
@@ -83,9 +83,9 @@ echo "<h3>No one is currently registered.</h3>";
 }
  
 try {
-$conn = new PDO("sqlsrv:server = tcp:gumb.database.windows.net,1433; Database = БазаДанных", "Яна", "5556622w");
-$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
- 
+    $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}
 if(isset($_POST["submit2"]))
 {
 $sql1 = "DELETE FROM registration_tbl";
