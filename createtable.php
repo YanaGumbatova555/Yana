@@ -18,8 +18,8 @@ catch (PDOException $e) {
 }
 
 // SQL Server Extension Sample Code:
-$connectionInfo = array("UID" => "Яна@gumb", "pwd" => "5556622w", "Database" => "БазаДанных", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
-$serverName = "tcp:gumb.database.windows.net,1433";
+$connectionInfo = array("UID" => "Yana@servgumb", "pwd" => "Sobachka.1", "Database" => "db1", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
+$serverName = "tcp:servgumb.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 echo "<h3>Table created.</h3>";
 ?>
