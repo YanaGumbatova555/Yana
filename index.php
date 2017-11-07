@@ -19,20 +19,17 @@ margin-bottom: 0; padding-bottom: 0; }
  text-align: left; border: none; padding-left: 0; }
     td { padding: 0.25em 2em 0.25em 0em; 
 border: 0 none; }
-    form
-    {
-        margin-left: 70px;
-    }
 </style>
 </head>
 <body>
 <h1>Зарегестрируйтесь!</h1>
 <p>Заполните свое имя и адрес, а затем нажмите <strong>Отправить</strong> 
 для регистрации.</p>
-<form method="post" action="index.php" 
+    <table>
+      <form method="post" action="index.php" 
 enctype="multipart/form-data" >
-      Login <input type="text" 
-name="login" id="Login"/></br>
+      <tr>Login <input type="text" 
+name="login" id="Login"/></tr></br>
       Email <input type="text" 
 name="email" id="Email"/></br>
       Password <input type="text" 
@@ -42,6 +39,7 @@ name="Confirm password" id="Confirm password"/></br>
       <input type="submit" 
 name="submit" value="Отправить" />
 </form>
+</table>
 <?php
 try {
     $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
