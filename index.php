@@ -19,7 +19,7 @@ margin-bottom: 0; padding-bottom: 0; }
  text-align: left; border: none; padding-left: 0; }
     td { padding: 0.25em 2em 0.25em 0em; 
 border: 0 none; }
-    input
+    form
     {
         margin-left: 70px;
     }
