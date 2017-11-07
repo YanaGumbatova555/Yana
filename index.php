@@ -28,11 +28,11 @@ border: 0 none; }
 <form method="post" action="index.php" 
 enctype="multipart/form-data" >
       Login  <input type="text" 
-name="login" id="Логин"/></br>
+name="login" id="Login"/></br>
       Email <input type="text" 
 name="email" id="Email"/></br>
      Password <input type="text" 
-name="password" id="Пароль"/></br>
+name="password" id="Password"/></br>
       <input type="submit" 
 name="submit" value="Отправить" />
 </form>
