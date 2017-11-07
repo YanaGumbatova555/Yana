@@ -29,13 +29,12 @@ border: 0 none; }
       <form method="post" action="index.php" 
 enctype="multipart/form-data" >
       <tr><td> Login <input type="text" 
-name="login" id="Login"/> </td></tr> </br>
+name="login" id="Login"/> </td></tr> 
      <tr><td>  Email <input type="text" 
-name="email" id="Email"/></td></tr>  </br>
+name="email" id="Email"/></td></tr> 
       <tr><td> Password <input type="text" 
-name="password" id="Password"/> </td></tr> </br>
      <tr><td>  Confirm password <input type="text" 
-name="Confirm password" id="Confirm password"/></td></tr> </br>
+name="Confirm password" id="Confirm password"/></td></tr> 
      <tr><td>  <input type="submit" 
 name="submit" value="Отправить" /></td></tr> 
 </form>
