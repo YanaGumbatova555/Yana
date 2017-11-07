@@ -27,9 +27,9 @@ border: 0 none; }
 для регистрации.</p>
 <form method="post" action="index.php" 
 enctype="multipart/form-data" >
-      Login &nbsp &nbsp <input type="text" 
+      Login <input type="text" 
 name="login" id="Login"/></br>
-      Email &nbsp &nbsp <input type="text" 
+      Email <input type="text" 
 name="email" id="Email"/></br>
       Password <input type="text" 
 name="password" id="Password"/></br>
