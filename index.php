@@ -31,8 +31,10 @@ enctype="multipart/form-data" >
 name="login" id="Login"/></br>
       Email <input type="text" 
 name="email" id="Email"/></br>
-     Password <input type="text" 
+      Password <input type="text" 
 name="password" id="Password"/></br>
+      Confirm password <input type="text" 
+name="Confirm password" id="Confirm password"/></br>
       <input type="submit" 
 name="submit" value="Отправить" />
 </form>
