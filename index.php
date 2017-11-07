@@ -25,19 +25,19 @@ border: 0 none; }
 <h1>Зарегестрируйтесь!</h1>
 <p>Заполните свое имя и адрес, а затем нажмите <strong>Отправить</strong> 
 для регистрации.</p>
-    <table>
+      <table>
       <form method="post" action="index.php" 
 enctype="multipart/form-data" >
-      <tr>Login <input type="text" 
-name="login" id="Login"/></tr></br>
-      Email <input type="text" 
-name="email" id="Email"/></br>
-      Password <input type="text" 
-name="password" id="Password"/></br>
-      Confirm password <input type="text" 
-name="Confirm password" id="Confirm password"/></br>
-      <input type="submit" 
-name="submit" value="Отправить" />
+      <tr><td> Login <input type="text" 
+name="login" id="Login"/> </td></tr> </br>
+     <tr><td>  Email <input type="text" 
+name="email" id="Email"/></td></tr>  </br>
+      <tr><td> Password <input type="text" 
+name="password" id="Password"/> </td></tr> </br>
+     <tr><td>  Confirm password <input type="text" 
+name="Confirm password" id="Confirm password"/></td></tr> </br>
+     <tr><td>  <input type="submit" 
+name="submit" value="Отправить" /></td></tr> 
 </form>
 </table>
 <?php
