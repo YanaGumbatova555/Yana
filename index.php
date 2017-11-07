@@ -21,7 +21,7 @@ margin-bottom: 0; padding-bottom: 0; }
 border: 0 none; }
     #Login,#Email,#Password,#Confirm password
     {
-        margin-left: 100px;
+        margin-left: 50px;
     }
 </style>
 </head>
