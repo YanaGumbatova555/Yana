@@ -22,21 +22,26 @@ border: 0 none; }
 </style>
 </head>
 <body>
-<h1>Зарегестрируйтесь!</h1>
-<p>Заполните свое имя и адрес, а затем нажмите <strong>Отправить</strong> 
+<h1>Регистрация</h1>
 для регистрации.</p>
       <table>
       <form method="post" action="index.php" 
 enctype="multipart/form-data" >
-      <tr><td> Login <input type="text" 
-name="login" id="Login"/> </td></tr> 
+      <tr><td> Фамилия <input type="text" 
+name="фамилия" id="фамилия"/> </td></tr> 
+      <tr><td> Имя <input type="text" 
+name="имя" id="имя"/> </td></tr> 
+      <tr><td> Отчество <input type="text" 
+name="отчество" id="отчество"/> </td></tr> 
+     <tr><td> Адрес <input type="text" 
+name="адрес" id="адрес"/> </td></tr> 
      <tr><td>  Email <input type="text" 
 name="email" id="Email"/></td></tr> 
       <tr><td> Password <input type="text" 
      <tr><td>  Confirm password <input type="text" 
 name="Confirm password" id="Confirm password"/></td></tr> 
      <tr><td>  <input type="submit" 
-name="submit" value="Отправить" /></td></tr> 
+name="submit" value="Зарегистрироваться" /></td></tr> 
 </form>
 </table>
 <?php
