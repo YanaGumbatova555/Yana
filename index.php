@@ -23,7 +23,6 @@ border: 0 none; }
 </head>
 <body>
 <h1>Регистрация</h1>
-для регистрации.</p>
       <table>
       <form method="post" action="index.php" 
 enctype="multipart/form-data" >
@@ -37,9 +36,9 @@ name="отчество" id="отчество"/> </td></tr>
 name="адрес" id="адрес"/> </td></tr> 
      <tr><td>  Email <input type="text" 
 name="email" id="Email"/></td></tr> 
-      <tr><td> Password <input type="text" 
-     <tr><td>  Confirm password <input type="text" 
-name="Confirm password" id="Confirm password"/></td></tr> 
+      <tr><td> Введите пароль <input type="text" 
+     <tr><td>  Повторите пароль <input type="text" 
+name="повторите пароль" id="повторите пароль"/></td></tr> 
      <tr><td>  <input type="submit" 
 name="submit" value="Зарегистрироваться" /></td></tr> 
 </form>
