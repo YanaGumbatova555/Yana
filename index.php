@@ -40,7 +40,7 @@
             </div>
             <input class="sub" type="submit" name="submit" value="Войти">
             <br><br>
-            <a href="\sugnup.html" style="font-size: 14px; margin-left: 100px;">Регистрация</a>
+            <a href="\sugnup.php" style="font-size: 14px; margin-left: 100px;">Регистрация</a>
           </div>
         </div>
       </form>
