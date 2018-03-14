@@ -64,6 +64,9 @@
   
   <div id="content">
    <img src="/KXIDWaHd.png"></img>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script async src="//lk.easynetshop.ru/frontend/primer.js"></script>
+<link href="//lk.easynetshop.ru/frontend/primer.css" rel="stylesheet">
   </div>
   
  <div id="footer">&copy; 2017-2018 </div>
