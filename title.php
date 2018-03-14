@@ -41,7 +41,7 @@
    
    #sub {
     text-align: right;
-    margin-left: 90px;
+    margin-left: 180px;
     width: 95px;
     height: 30px;
    }
