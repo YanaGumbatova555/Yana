@@ -62,7 +62,7 @@
    <p><a href="clouses_all.html">Аксессуары</a></p>
   </div>
   <div id="content">
-    <p>картинка какая-то</p>
+   <p><a href="https://github.com/YanaGumbatova555/Yana/blob/master/KXIDWaHd.jpg"></a></p>
  
   </div>
  <div id="footer">&copy; 2017-2018 </div>
