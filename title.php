@@ -46,7 +46,7 @@
    }
    
    .content{
-    <a href="https://github.com/YanaGumbatova555/Yana/blob/master/KXIDWaHd.jpg"></a>
+    background-image: URL ('https://github.com/YanaGumbatova555/Yana/blob/master/KXIDWaHd.jpg');
    }
        
   </style>
