@@ -27,7 +27,7 @@
     padding: 5px; /* Поля вокруг текста */
     margin: 10px 10px 20px 5px; /* Значения отступов */
    }
-   .content { /* Правая колонка */
+   #content { /* Правая колонка */
     margin: 10px 5px 20px 25%; /* Значения отступов */
     padding: 5px; /* Поля вокруг текста */
     border: 1px solid #333; /* Параметры рамки */
@@ -63,7 +63,7 @@
    <p><a href="clouses_all.html">Аксессуары</a></p>
   </div>
   
-  <div class="content"> 
+  <div id="content"> 
   </div>
   
  <div id="footer">&copy; 2017-2018 </div>
