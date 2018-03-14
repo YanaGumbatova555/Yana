@@ -43,8 +43,7 @@
  <body>
   <div id="header"><h1>Shop</h1></div>
   <div id="sidebar">
-   <title>Корзина</title>
-    <p>Корзина</p>
+  
     <p><a href="clouses_all.html">Женская одежда</a></p>
     <p><a href="clouses_all.html">Мужская одежда</a></p>
     <p><a href="clouses_all.html">Детская одежда</a></p>
