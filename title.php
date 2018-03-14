@@ -55,6 +55,6 @@
     <p>корзина</p>
   
   </div>
-  <div id="header"></div>
+
  </body>
 </html>
