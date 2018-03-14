@@ -50,8 +50,9 @@
  </head>
  <body>
   <div id="header">
-   <a href="\sugnup.php" style="font-size: 14px; margin-left: 100px;"><input class="sub" type="submit" name="submit" value="Регистрация"></a>
-    <input class="sub" type="submit" name="submit" value="Вход">
+   <input class="sub" type="submit" name="submit" value="Регистрация">
+    <a href="\sugnup.php" style="font-size: 14px; margin-left: 100px;">sgjhlhkadflighad</a>
+   <input class="sub" type="submit" name="submit" value="Вход">
    <h1>Shop</h1>
   </div>
   
