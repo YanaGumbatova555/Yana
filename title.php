@@ -45,7 +45,7 @@
     height: 30px;
    }
    
-   .header {
+   #header {
     float: right;
    }
    
