@@ -48,9 +48,10 @@
   </style>
  </head>
  <body>
-  <div id="header"><h1>Shop</h1>
-  <input class="sub" type="submit" name="submit" value="Регистрация">
+  <div id="header">
+   <input class="sub" type="submit" name="submit" value="Регистрация">
   <input class="sub" type="submit" name="submit" value="Вход">
+   <h1>Shop</h1>
   </div>
   <div id="sidebar">
   
