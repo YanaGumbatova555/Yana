@@ -45,10 +45,6 @@
     height: 30px;
    }
    
-   #header {
-    float: right;
-   }
-   
        
   </style>
  </head>
@@ -56,8 +52,6 @@
   <div id="header">
   <div class="button_uznai1">
   <a href="\sugnup.php" class="button_uznai1_text">Регистрация</a>
-  </div>
-  <div class="button_uznai1">
   <a href="\index.php" class="button_uznai1_text">Вход</a>
   </div>
   <h1>Shop</h1>
