@@ -63,7 +63,7 @@
   </div>
   
   <div id="content">
-   <img href="/KXIDWaHd.jpg'"></img>
+   <img href="/KXIDWaHd.jpg"></img>
   </div>
   
  <div id="footer">&copy; 2017-2018 </div>
