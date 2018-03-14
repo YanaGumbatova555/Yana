@@ -50,6 +50,8 @@
    
    .image{
     float:left;
+    width: 25px;
+    height: 15px;
    }
    
        
