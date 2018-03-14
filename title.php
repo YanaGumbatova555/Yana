@@ -52,8 +52,8 @@
   </div>
   <div id="content">
     <p>картинка какая-то</p>
-  <div id="footer">&copy; Yana G</div>
+ 
   </div>
-
+ <div id="footer">&copy; 2017-2018 </div>
  </body>
 </html>
