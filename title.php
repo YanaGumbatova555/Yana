@@ -54,7 +54,7 @@
   <a href="\sugnup.php" class="button_uznai1_text">Регистрация</a>
   <a href="\index.php" class="button_uznai1_text">Вход</a>
   </div>
-  <h1>Shop</h1>
+  <h1>Online-shop</h1>
   </div>
   
   <div id="sidebar">
@@ -66,7 +66,7 @@
   </div>
   
   <div id="content">
-   <img src="/KXIDWaHd.png"></img>
+   <img src="/s800.png"></img>
   </div>
   
  <div id="footer">&copy; 2017-2018 </div>
