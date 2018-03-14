@@ -38,6 +38,14 @@
     color: #fff; /* Цвет текста */
     clear: left; /* Отменяем действие float */
    }
+   
+   #sub {
+    text-align: center;
+    margin-left: 90px;
+    width: 95px;
+    height: 30px;
+   }
+       
   </style>
  </head>
  <body>
@@ -50,6 +58,7 @@
     <p><a href="clouses_all.html">Детская одежда</a></p>
     <p><a href="clouses_all.html">Обувь</a></p>
     <p><a href="clouses_all.html">Аксессуары</a></p>
+    <input class="sub" type="submit" name="submit" value="Регистрация">
   </div>
   <div id="content">
     <p>картинка какая-то</p>
