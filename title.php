@@ -40,7 +40,7 @@
    }
    
    #sub {
-    text-align: center;
+    text-align: right;
     margin-left: 90px;
     width: 95px;
     height: 30px;
@@ -49,17 +49,18 @@
   </style>
  </head>
  <body>
-  <div id="header"><h1>Shop</h1></div>
+  <div id="header"><h1>Shop</h1>
+  <input class="sub" type="submit" name="submit" value="Регистрация">
+  <input class="sub" type="submit" name="submit" value="Вход">
+  </div>
   <div id="sidebar">
   
-    <p>Корзина</p>
     <p><a href="clouses_all.html">Женская одежда</a></p>
     <p><a href="clouses_all.html">Мужская одежда</a></p>
     <p><a href="clouses_all.html">Детская одежда</a></p>
     <p><a href="clouses_all.html">Обувь</a></p>
    <p><a href="clouses_all.html">Аксессуары</a></p>
   </div>
-  <input class="sub" type="submit" name="submit" value="Корзина">
   <div id="content">
     <p>картинка какая-то</p>
  
