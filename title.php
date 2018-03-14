@@ -2,7 +2,7 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Байки из склепа</title>
+  <title>Shop</title>
   <style>
    body {
     font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
@@ -11,7 +11,7 @@
    h1 {
     font-size: 36px; /* Размер шрифта */
     margin: 0; /* Убираем отступы */
-    color: #fc6; /* Цвет текста */
+    color: #4C0B5F; /* Цвет текста */
    }
    h2 {
     margin-top: 0; /* Убираем отступ сверху */
