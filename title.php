@@ -50,8 +50,6 @@
    
    .image{
     float:left;
-    width: 25px;
-    height: 15px;
    }
    
        
@@ -80,7 +78,7 @@
   </div>
  
   <div id="image">
-  <img src="/128525-simple-red-square-icon-business-cart4.png" width="100" height="100" alt=""></img>
+  <img src="/128525-simple-red-square-icon-business-cart4.png" style="width: 100px; height: 100px;"></img>
   </div>
   
  <div id="footer">&copy; 2017-2018 </div>
