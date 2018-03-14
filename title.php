@@ -58,7 +58,7 @@
     <input class="sub" type="submit" name="submit" value="Вход">
    if (isset($_POST['submit']))
    {
-   header('location: sugnup.php');
+   header('location: registration.php');
    }
    <h1>Shop</h1>
   </div>
