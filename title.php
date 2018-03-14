@@ -66,9 +66,6 @@
     <p><a href="clouses_all.html">Детская одежда</a></p>
     <p><a href="clouses_all.html">Обувь</a></p>
    <p><a href="clouses_all.html">Аксессуары</a></p>
-    <div id="content">
-  <img src="/128525-simple-red-square-icon-business-cart4.png"></img>
-  </div>
   </div>
   
   
@@ -76,6 +73,9 @@
    <img src="/s800.png"></img>
   </div>
  
+  <div id="content">
+  <img src="/128525-simple-red-square-icon-business-cart4.png"></img>
+  </div>
   
  <div id="footer">&copy; 2017-2018 </div>
  </body>
