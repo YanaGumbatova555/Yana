@@ -44,6 +44,9 @@
     width: 95px;
     height: 30px;
    }
+   .button_uznai1 {
+    float: right;
+   }
    
        
   </style>
