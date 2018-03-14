@@ -46,9 +46,7 @@
    }
    
    .content{
-    background: url("https://github.com/YanaGumbatova555/Yana/blob/master/KXIDWaHd.jpg");
-     width: 95px;
-    height: 30px;
+    background: url("/KXIDWaHd.jpg");
    }
        
   </style>
@@ -67,12 +65,9 @@
    <p><a href="clouses_all.html">Аксессуары</a></p>
   </div>
   
-
-  
-  <div id="content">
-   <p>.</p>
- 
+  <div id="content"> 
   </div>
+  
  <div id="footer">&copy; 2017-2018 </div>
  </body>
 </html>
