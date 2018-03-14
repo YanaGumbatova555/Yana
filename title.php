@@ -51,15 +51,17 @@
  <body>
   <div id="header">
     <input class="sub" type="submit" name="submit" value="Регистрация">
-   if (isset($_POST['submit']))
+    <?php if (isset($_POST['submit'])) : ?> 
    { 
-   header('location: sugnup.php');
+   <?php header('location: sugnup.php'); ?> 
    }
+   <?php endif; ?> 
     <input class="sub" type="submit" name="submit" value="Вход">
-   if (isset($_POST['submit']))
+   <?php if (isset($_POST['submit'])) : ?>
    {
-   header('location: registration.php');
+   <?php header('location: registration.php'); ?>
    }
+   <?php endif; ?> 
    <h1>Shop</h1>
   </div>
   
