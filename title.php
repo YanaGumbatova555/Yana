@@ -48,6 +48,10 @@
     float: right;
    }
    
+   .image{
+    float:left;
+   }
+   
        
   </style>
  </head>
@@ -73,7 +77,7 @@
    <img src="/s800.png"></img>
   </div>
  
-  <div id="content">
+  <div id="image">
   <img src="/128525-simple-red-square-icon-business-cart4.png"></img>
   </div>
   
