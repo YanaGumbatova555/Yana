@@ -50,10 +50,11 @@
  </head>
  <body>
   <div id="header">
-   <input class="sub" type="submit" name="submit" value="Регистрация">
-  <input class="sub" type="submit" name="submit" value="Вход">
+    <input class="sub" type="submit" name="submit" value="Регистрация">
+    <input class="sub" type="submit" name="submit" value="Вход">
    <h1>Shop</h1>
   </div>
+  
   <div id="sidebar">
     <p><a href="clouses_all.html">Женская одежда</a></p>
     <p><a href="clouses_all.html">Мужская одежда</a></p>
