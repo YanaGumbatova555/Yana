@@ -53,9 +53,12 @@
   <div>
   <input class="sub" type="submit" name="submit" value="Регистрация">
   <a href="\sugnup.php" style="font-size: 14px; margin-left: 100px;">Регистрация</a>
+  <input class="sub" type="submit" name="submit" value="Вход">
   </div>
-   <input class="sub" type="submit" name="submit" value="Вход">
-   <h1>Shop</h1>
+   <div class="button_uznai1">
+                     <a href="" class="button_uznai1_text">Узнай больше!</a>
+                    </div>
+  <h1>Shop</h1>
   </div>
   
   <div id="sidebar">
