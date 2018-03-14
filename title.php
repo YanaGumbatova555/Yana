@@ -57,9 +57,9 @@
     <p><a href="clouses_all.html">Мужская одежда</a></p>
     <p><a href="clouses_all.html">Детская одежда</a></p>
     <p><a href="clouses_all.html">Обувь</a></p>
-    <p><a href="clouses_all.html">Аксессуары</a></p>
-    <input class="sub" type="submit" name="submit" value="Регистрация">
+   <p><a href="clouses_all.html">Аксессуары</a></p>
   </div>
+  <input class="sub" type="submit" name="submit" value="Корзина">
   <div id="content">
     <p>картинка какая-то</p>
  
