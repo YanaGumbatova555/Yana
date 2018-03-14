@@ -17,7 +17,7 @@
     margin-top: 0; /* Убираем отступ сверху */
    }
    #header { /* Верхний блок */
-    background: #0080c0; /* Цвет фона */
+    background: #BDBDBD; /* Цвет фона */
     padding: 10px; /* Поля вокруг текста */
    }
    #sidebar { /* Левая колонка */
@@ -33,7 +33,7 @@
     border: 1px solid #333; /* Параметры рамки */
    }
    #footer { /* Нижний блок */
-    background: #BDBDBD; /* Цвет фона */
+    background: #6E6E6E; /* Цвет фона */
     padding: 5px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
     clear: left; /* Отменяем действие float */
