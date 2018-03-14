@@ -71,6 +71,10 @@
   <div id="content">
    <img src="/s800.png"></img>
   </div>
+ 
+ <div id="content">
+  <img src="/128525-simple-red-square-icon-business-cart4.png"></img>
+  </div>
   
  <div id="footer">&copy; 2017-2018 </div>
  </body>
