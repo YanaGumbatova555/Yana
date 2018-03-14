@@ -51,7 +51,15 @@
  <body>
   <div id="header">
     <input class="sub" type="submit" name="submit" value="Регистрация">
+   if (isset($_POST['submit']))
+   { 
+   header('location: sugnup.php');
+   }
     <input class="sub" type="submit" name="submit" value="Вход">
+   if (isset($_POST['submit']))
+   {
+   header('location: sugnup.php');
+   }
    <h1>Shop</h1>
   </div>
   
