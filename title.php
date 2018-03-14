@@ -39,7 +39,7 @@
     clear: left; /* Отменяем действие float */
    }
    
-   #sub {
+   .sub {
     position: absolute;
     right: 0;
     width: 95px;
