@@ -47,6 +47,8 @@
    
    .content{
     background-image: URL ("https://github.com/YanaGumbatova555/Yana/blob/master/KXIDWaHd.jpg");
+     width: 95px;
+    height: 30px;
    }
        
   </style>
@@ -58,13 +60,15 @@
    <h1>Shop</h1>
   </div>
   <div id="sidebar">
-  
     <p><a href="clouses_all.html">Женская одежда</a></p>
     <p><a href="clouses_all.html">Мужская одежда</a></p>
     <p><a href="clouses_all.html">Детская одежда</a></p>
     <p><a href="clouses_all.html">Обувь</a></p>
    <p><a href="clouses_all.html">Аксессуары</a></p>
   </div>
+  
+
+  
   <div id="content">
    <p>.</p>
  
