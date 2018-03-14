@@ -40,8 +40,8 @@
    }
    
    #sub {
-    text-align: right;
-    margin-left: 180px;
+    position: absolute;
+    right: 0;
     width: 95px;
     height: 30px;
    }
