@@ -40,8 +40,7 @@
    }
    
    .sub {
-    position: absolute;
-    right: 0;
+    float: right;
     width: 95px;
     height: 30px;
    }
