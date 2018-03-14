@@ -31,7 +31,7 @@
     margin: 10px 5px 20px 25%; /* Значения отступов */
     padding: 5px; /* Поля вокруг текста */
     border: 1px solid #333; /* Параметры рамки */
-    background-image:
+    background-image: url('/KXIDWaHd.jpg');
    }
    #footer { /* Нижний блок */
     background: #6E6E6E; /* Цвет фона */
