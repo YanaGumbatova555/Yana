@@ -55,6 +55,6 @@
     <p>корзина</p>
   
   </div>
-  <div id="footer">&copy; Yana G</div>
+ 
  </body>
 </html>
