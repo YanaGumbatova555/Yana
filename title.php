@@ -2,7 +2,7 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Shop</title>
+  <title>Online-shop</title>
   <style>
    body {
     font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
