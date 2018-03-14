@@ -80,7 +80,7 @@
   </div>
  
   <div id="image">
-  <img src="/128525-simple-red-square-icon-business-cart4.png"></img>
+  <img src="/128525-simple-red-square-icon-business-cart4.png" width="100" height="100" alt=""></img>
   </div>
   
  <div id="footer">&copy; 2017-2018 </div>
