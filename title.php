@@ -52,6 +52,7 @@
   </div>
   <div id="content">
     <p>картинка какая-то</p>
+  <div id="footer">&copy; Yana G</div>
   </div>
 
  </body>
