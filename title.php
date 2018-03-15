@@ -52,6 +52,19 @@
     float:left;
    }
    
+   #header .smalcart{
+    float:right;   
+    height:55px;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;  
+    background: #E6DEEA;
+}
+   
        
   </style>
  </head>
@@ -80,6 +93,12 @@
   <div id="image">
   <img src="/128525-simple-red-square-icon-business-cart4.png" style="width: 100px; height: 100px;"></img>
   </div>
+
+<div class="smalcart">
+    <strong>Товаров в корзине:</strong><?=$smal_cart['cart_count']?> шт.
+     <br/><strong>На сумму:</strong><?=$smal_cart['cart_price']?> руб.   
+    <br/><a href=''>Оформить заказ</a>
+</div>
   
  <div id="footer">&copy; 2017-2018 </div>
  </body>
