@@ -1,135 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <title>Регистрация</title>
-    <style>
-    .container {
-      width: 300px;
-      height: 620px;
-      margin: 100px auto 0 auto;
-      text-align: center;
-      background-color: #afacaa;
-    }
-    .sub {
-      text-align: center;
-      margin-left: 90px;
-      width: 95px;
-      height: 30px;
-    }
-    .form-control {
-      width: 270px;
-    }
-    label {
-      float: left;
-    }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-            <form method="post" action="sugnup.php">
-              <legend><h1>Регистрация</h1></legend>
-              <div class="form-group">
-                <label for="" >Фамилия</label>
-                <input class="form-control" type="text" name="lastname" value="">
-              </div>
-              <div class="form-group">
-                <label for="">Имя</label>
-                <input class="form-control" type="text" name="name" value="">
-              </div>
-              <div class="form-group">
-                <label for="">Отчество</label>
-                <input class="form-control" type="text" name="middlename">
-              </div>
-              <div class="form-group">
-                <label for="">Email</label>
-                <input class="form-control" type="text" name="Email">
-              </div>
-              <div class="form-group">
-                <label for="">Пароль</label>
-                <input class="form-control" type="password" name="password">
-              </div>
-              <div class="form-group">
-                <label>Повторите пароль</label>
-                <input class="form-control" type="password" name="password2">
-              </div>
-              <input class="sub" type="submit" name="submit" value="Регистрация">
-            </form>
-        </div>
-      </div>
-    </div>
-  </body>
+ <head>
+  <meta charset="utf-8">
+  <title>Online-shop</title>
+  <style>
+   body {
+    font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    margin: 0; /* Отступы на странице */
+   }
+   h1 {
+    font-size: 36px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: #4C0B5F; /* Цвет текста */
+   }
+   h2 {
+    margin-top: 0; /* Убираем отступ сверху */
+   }
+   #header { /* Верхний блок */
+    background: #BDBDBD; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+   }
+   #sidebar { /* Левая колонка */
+    float: left; /* Обтекание справа */
+    border: 1px solid #333; /* Параметры рамки вокруг */
+    width: 20%; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 10px 20px 5px; /* Значения отступов */
+   }
+   #content { /* Правая колонка */
+    margin: 10px 5px 20px 25%; /* Значения отступов */
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid #333; /* Параметры рамки */
+   }
+   #footer { /* Нижний блок */
+    background: #6E6E6E; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    clear: left; /* Отменяем действие float */
+   }
+   
+   .sub {
+    float: right;
+    width: 95px;
+    height: 30px;
+   }
+   .button_uznai1 {
+    float: right;
+   }
+   
+   .image{
+    float:left;
+   }
+   
+       
+  </style>
+ </head>
+ <body>
+  <div id="header">
+  <div class="button_uznai1">
+  <a href="\sugnup.php" class="button_uznai1_text">Регистрация</a>
+  <a href="\index.php" class="button_uznai1_text">Вход</a>
+  </div>
+  <h1>Online-shop</h1>
+  </div>
+ 
+  <div id="sidebar">
+    <p><a href="clouses_all.html">Женская одежда</a></p>
+    <p><a href="clouses_all.html">Мужская одежда</a></p>
+    <p><a href="clouses_all.html">Детская одежда</a></p>
+    <p><a href="clouses_all.html">Обувь</a></p>
+   <p><a href="clouses_all.html">Аксессуары</a></p>
+  </div>
+  
+  
+  <div id="content">
+   <img src="/s800.png"></img>
+  </div>
+ 
+  <div id="image">
+  <img src="/128525-simple-red-square-icon-business-cart4.png" style="width: 100px; height: 100px;"></img>
+  </div>
+  
+ <div id="footer">&copy; 2017-2018 </div>
+ </body>
 </html>
 
-<?php
-/* 
-try {
-    $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-}
-catch (PDOException $e) {
-    print("Error connecting to SQL Server.");
-    die(print_r($e));
-}
-if(!empty($_POST)) {
-try {
-$name = $_POST['name'];
-$email = $_POST['email'];
-$date = date("Y-m-d");
-// Insert data
-$sql_insert =
-"INSERT INTO registration_tbl (name, email, date)
-VALUES (?,?,?)";
-$stmt = $conn->prepare($sql_insert);
-$stmt->bindValue(1, $name);
-$stmt->bindValue(2, $email);
-$stmt->bindValue(3, $date);
-$stmt->execute();
-}
-catch(Exception $e) {
-die(var_dump($e));
-}
-echo "<h3>Your're registered!</h3>";
-}
-$sql_select = "SELECT * FROM registration_tbl";
-$stmt = $conn->query($sql_select);
-$registrants = $stmt->fetchAll();
-if(count($registrants) > 0) {
-echo "<h2>People who are registered:</h2>";
-echo "<table>";
-echo "<tr><th>Name</th>";
-echo "<th>Email</th>";
-echo "<th>Date</th></tr>";
-foreach($registrants as $registrant) {
-echo "<tr><td>".$registrant['name']."</td>";
-echo "<td>".$registrant['email']."</td>";
-echo "<td>".$registrant['date']."</td></tr>";
-}
-echo "</table>";
-} else {
-echo "<h3>No one is currently registered.</h3>";
-}
- 
-try {
-    $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-if(isset($_POST["submit2"]))
-{
-$sql1 = "DELETE FROM registration_tbl";
-$conn->query($sql1);
-}
-}
-catch (PDOException $e) {
-print("Error connecting to SQL Server.");
-die(print_r($e));
-}
-    try {
-        {
-$Password = a;
-$Confirm password = b;}
-    }
-*/
-?>
+
+
