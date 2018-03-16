@@ -78,7 +78,7 @@
   </div>
  
   <div id="sidebar">
-   <p><a href="closes.html">Специальные товары</a></p>
+   <p><a href="closes.php">Специальные товары</a></p>
     <p><a href="clouses_all.html">Женская одежда</a></p>
     <p><a href="clouses_all.html">Мужская одежда</a></p>
     <p><a href="clouses_all.html">Детская одежда</a></p>
