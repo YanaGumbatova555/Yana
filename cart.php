@@ -1,3 +1,4 @@
+<?php
 class Application_Models_Cart
   {  
     function addToCart($id, $count=1)
@@ -10,3 +11,4 @@ class Application_Models_Cart
      
     function clearCart(){}
   }
+?>
