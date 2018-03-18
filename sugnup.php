@@ -65,7 +65,6 @@
 </html>
 
 <?php
-/* 
 try {
     $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -131,5 +130,4 @@ die(print_r($e));
 $Password = a;
 $Confirm password = b;}
     }
-*/
 ?>
