@@ -68,7 +68,7 @@
 try 
 {
   $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) 
 {
@@ -77,27 +77,22 @@ die(print_r($e));
 }
 
 if(isset($_POST["submit"])) {
-if($_POST["familiya"] =="" || $_POST["name"]=="" || $_POST["otchestvo"] ==""){echo "Введите свои данные";}
+if($_POST["lastname"] =="" || $_POST["name"]=="" || $_POST["middlename"] ==""){echo "Введите свои данные";}
 else{
 try {
-$familiya = $_POST['familiya'];
+$lastname = $_POST['lastname'];
 $name = $_POST['name'];
-$otchestvo = $_POST['otchestvo'];
-$birthday = $_POST['birthday'];
-$inn = $_POST['inn'];
-$telefon = $_POST['telefon'];
-$adres = $_POST['adres'];
+$middlename = $_POST['middlename'];
+$Email = $_POST['Email'];
+
 
 // Insert data 
-$sql_insert = "INSERT INTO client_tbl (familiya,name,otchestvo, birthday, inn, telefon,adres) VALUES (?,?,?,?,?,?,?)";
+$sql_insert = "INSERT INTO client_tbl (lastname,name,middlename,Email ) VALUES (?,?,?,?)";
 $stmt = $conn->prepare($sql_insert);
-$stmt->bindValue(1, $familiya);
+$stmt->bindValue(1, $lastname);
 $stmt->bindValue(2, $name);
-$stmt->bindValue(3, $otchestvo);
-$stmt->bindValue(4, $birthday);
-$stmt->bindValue(5, $inn);
-$stmt->bindValue(6, $telefon);
-$stmt->bindValue(7, $adres);
+$stmt->bindValue(3, $middlename);
+$stmt->bindValue(4, $Email );
 $stmt->execute();
 }
 catch(Exception $e) 
@@ -111,21 +106,15 @@ $stmt = $conn->query($sql_select);
 $registrants = $stmt->fetchAll();
 if(count($registrants) > 0) {
 echo "<table>";
-echo "<tr><th>familiya</th>";
+echo "<tr><th>lastname</th>";
 echo "<th>name</th>";
-echo "<th>otchestvo</th>";
-echo "<th>birthday</th>";
-echo "<th>inn</th>";
-echo "<th>telefon</th>";
-echo "<th>adres</th></tr>";
+echo "<th>middlename</th>";
+echo "<th>Email </th>";
 foreach($registrants as $registrant) {
-echo "<tr><td>".$registrant['familiya']."</td>";
+echo "<tr><td>".$registrant['lastname']."</td>";
 echo "<td>".$registrant['name']."</td>";
-echo "<td>".$registrant['otchestvo']."</td>";
-echo "<td>".$registrant['birthday']."</td>";
-echo "<td>".$registrant['inn']."</td>";
-echo "<td>".$registrant['telefon']."</td>";
-echo "<td>".$registrant['adres']."</td></tr>";
+echo "<td>".$registrant['middlename']."</td>";
+echo "<td>".$registrant['Email ']."</td>";
 }
 echo "</table>";
 }
