@@ -65,69 +65,73 @@
 </html>
 
 <?php
-try {
-    $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-}
-catch (PDOException $e) {
-    print("Error connecting to SQL Server.");
-    die(print_r($e));
-}
-if(!empty($_POST)) {
-try {
-$name = $_POST['name'];
-$email = $_POST['email'];
-$date = date("Y-m-d");
-// Insert data
-$sql_insert =
-"INSERT INTO registration_tbl (name, email, date)
-VALUES (?,?,?)";
-$stmt = $conn->prepare($sql_insert);
-$stmt->bindValue(1, $name);
-$stmt->bindValue(2, $email);
-$stmt->bindValue(3, $date);
-$stmt->execute();
-}
-catch(Exception $e) {
-die(var_dump($e));
-}
-echo "<h3>Your're registered!</h3>";
-}
-$sql_select = "SELECT * FROM registration_tbl";
-$stmt = $conn->query($sql_select);
-$registrants = $stmt->fetchAll();
-if(count($registrants) > 0) {
-echo "<h2>People who are registered:</h2>";
-echo "<table>";
-echo "<tr><th>Name</th>";
-echo "<th>Email</th>";
-echo "<th>Date</th></tr>";
-foreach($registrants as $registrant) {
-echo "<tr><td>".$registrant['name']."</td>";
-echo "<td>".$registrant['email']."</td>";
-echo "<td>".$registrant['date']."</td></tr>";
-}
-echo "</table>";
-} else {
-echo "<h3>No one is currently registered.</h3>";
-}
- 
-try {
-    $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-if(isset($_POST["submit2"]))
+try 
 {
-$sql1 = "DELETE FROM registration_tbl";
-$conn->query($sql1);
+  $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
-}
-catch (PDOException $e) {
+catch (PDOException $e) 
+{
 print("Error connecting to SQL Server.");
 die(print_r($e));
 }
-    try {
-        {
-$Password = a;
-$Confirm password = b;}
-    }
+
+if(isset($_POST["submit"])) {
+if($_POST["familiya"] =="" || $_POST["name"]=="" || $_POST["otchestvo"] ==""){echo "Введите свои данные";}
+else{
+try {
+$familiya = $_POST['familiya'];
+$name = $_POST['name'];
+$otchestvo = $_POST['otchestvo'];
+$birthday = $_POST['birthday'];
+$inn = $_POST['inn'];
+$telefon = $_POST['telefon'];
+$adres = $_POST['adres'];
+
+// Insert data 
+$sql_insert = "INSERT INTO client_tbl (familiya,name,otchestvo, birthday, inn, telefon,adres) VALUES (?,?,?,?,?,?,?)";
+$stmt = $conn->prepare($sql_insert);
+$stmt->bindValue(1, $familiya);
+$stmt->bindValue(2, $name);
+$stmt->bindValue(3, $otchestvo);
+$stmt->bindValue(4, $birthday);
+$stmt->bindValue(5, $inn);
+$stmt->bindValue(6, $telefon);
+$stmt->bindValue(7, $adres);
+$stmt->execute();
+}
+catch(Exception $e) 
+{
+die(var_dump($e));
+}
+}
+}
+$sql_select = "SELECT * FROM client_tbl";
+$stmt = $conn->query($sql_select);
+$registrants = $stmt->fetchAll();
+if(count($registrants) > 0) {
+echo "<table>";
+echo "<tr><th>familiya</th>";
+echo "<th>name</th>";
+echo "<th>otchestvo</th>";
+echo "<th>birthday</th>";
+echo "<th>inn</th>";
+echo "<th>telefon</th>";
+echo "<th>adres</th></tr>";
+foreach($registrants as $registrant) {
+echo "<tr><td>".$registrant['familiya']."</td>";
+echo "<td>".$registrant['name']."</td>";
+echo "<td>".$registrant['otchestvo']."</td>";
+echo "<td>".$registrant['birthday']."</td>";
+echo "<td>".$registrant['inn']."</td>";
+echo "<td>".$registrant['telefon']."</td>";
+echo "<td>".$registrant['adres']."</td></tr>";
+}
+echo "</table>";
+}
+else {
+echo "<h3>Ни один пользователь не зарегистрирован.</h3>";
+}
+
+
 ?>
