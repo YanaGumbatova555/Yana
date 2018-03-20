@@ -65,7 +65,7 @@
 </html>
 
 <?php
-require_once('db.php');
+require_once('db1.php');
 if (isset($_POST['submit'])) {
 $lastname = $_POST['lastname'];
 $name = $_POST['name'];
