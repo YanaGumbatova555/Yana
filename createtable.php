@@ -12,7 +12,7 @@ $sql = "CREATE TABLE table1(
     middlename VARCHAR(30),
     Email VARCHAR(30),
     password VARCHAR(30),
-    password2 VARCHAR(30),
+    password2 VARCHAR(30)
     )";
     $conn->query($sql);
 }
