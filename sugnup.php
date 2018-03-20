@@ -83,7 +83,7 @@ $middlename = $_POST['middlename'];
 $Email = $_POST['Email'];
 $password = $_POST['password'];
 $password2 = $_POST['password2'];
-$err = array();
+
 if(empty($lastname)) {
 $err[] = 'Поле "Фамилия" незаполненно!';
 }
@@ -102,13 +102,9 @@ $err[] = 'Поле пароль незаполненно!';
 elseif($password != $password2) {
 $err[] = 'Неправельно заполнен пароль2!';
 }
-if(empty($err)) { 
-$sql_select = "SELECT * FROM table1 WHERE lastname = '$lastname' OR name = '$name' OR middlename = '$middlename' OR Email = '$Email' ";
-$stmt = $conn->query($sql_select);
-$stmt->execute();
-$data = $stmt->fetchAll();
-if(count($data) == 0) {
-$sql_insert = "INSERT INTO users (lastname, name, middlename, Email, password, password2) VALUES (?,?,?,?,?,?)";
+
+
+$sql_insert = "INSERT INTO table1 (lastname, name, middlename, Email, password, password2) VALUES (?,?,?,?,?,?)";
 $stmt = $conn->prepare($sql_insert);
 $stmt->bindValue(1, $lastname);
 $stmt->bindValue(2, $name);
@@ -118,13 +114,22 @@ $stmt->bindValue(5, $password);
 $stmt->bindValue(6, $password2);
 $stmt->execute();
 echo '<div style= "color: blue; text-align: center;">Вы зарегистрированны!</div><hr>';
+$sql_select = "SELECT * FROM table1";
+$stmt = $conn->query($sql_select);
+$registrants = $stmt->fetchAll();
+if(count($registrants) > 0) {
+echo "<table>";
+echo "<tr><th>lastname</th>";
+echo "<th>name</th>";
+echo "<th>middlename</th>";
+echo "<th>Email </th>";
+foreach($registrants as $registrant) {
+echo "<tr><td>".$registrant['lastname']."</td>";
+echo "<td>".$registrant['name']."</td>";
+echo "<td>".$registrant['middlename']."</td>";
+echo "<td>".$registrant['Email ']."</td>";
 }
-else {
-echo '<div style = "color: red; text-align: center;">Такой пользователь уже существует!</div><hr>';
+echo "</table>";
 }
-}
-else {
-echo '<div style = "color: red; text-align: center;">'.array_shift($err).'</div><hr>';
-}
-}
+
 ?> 
