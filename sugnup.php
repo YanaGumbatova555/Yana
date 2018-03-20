@@ -30,7 +30,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-            <form method="post" action="\sugnup.php">
+            <form method="post" action="sugnup.php">
               <legend><h1>Регистрация</h1></legend>
               <div class="form-group">
                 <label for="" >Фамилия</label>
