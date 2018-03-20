@@ -130,7 +130,7 @@ foreach($registrants as $registrant)
 echo "<tr><td>".$registrant['lastname']."</td>";
 echo "<td>".$registrant['name']."</td>";
 echo "<td>".$registrant['middlename']."</td>";
-echo "<td>".$registrant['Email ']."</td>";
+echo "<td>".$registrant['Email']."</td></tr>";
 }
 echo "</table>";
 }
