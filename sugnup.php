@@ -120,10 +120,10 @@ $registrants = $stmt->fetchAll();
 if(count($registrants) > 0) 
 {
 echo "<table>";
-echo "<tr><th>lastname</th>";
-echo "<th>name</th>";
-echo "<th>middlename</th>";
-echo "<th>Email </th></tr>";
+echo "<tr><th>lastname     </th>";
+echo "<th>name     </th>";
+echo "<th>middlename    </th>";
+echo "<th>Email    </th></tr>";
 }
 foreach($registrants as $registrant) 
 {
