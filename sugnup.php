@@ -133,27 +133,4 @@ echo "</table>";
 }
   
 
-$sql_select = "SELECT * FROM test_tbl1";
-$stmt = $conn->query($sql_select);
-$registrants = $stmt->fetchAll();
-if(count($registrants) > 0) {
-echo "<h2>Люди, которые зарегистрированы:</h2>";
-echo "<table>";
-echo "<tr><th>Lastname</th>";
-echo "<th>Name</th>";
-echo "<th>Middlename</th>";
-echo "<th>Email</th>";
-echo "<th>Password</th></tr>";
-foreach($registrants as $registrant) {
-echo "<tr><td>".$registrant['lastname']."</td>";
-echo "<td>".$registrant['name']."</td>";
-echo "<td>".$registrant['middlename']."</td>";
-echo "<td>".$registrant['email']."</td>";
-echo "<td>".$registrant['password']."</td></tr>";
-}
-echo "</table>";}
-else {
-echo "<h3>Ни один пользователь не зарегистрирован.</h3>";
-}
-
 ?> 
