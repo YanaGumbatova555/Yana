@@ -64,3 +64,57 @@
   </body>
 </html>
 
+<?php
+require_once('db.php');
+if (isset($_POST['submit'])) {
+$lastname = $_POST['lastname'];
+$name = $_POST['name'];
+$middlename = $_POST['middlename'];
+$Email = $_POST['Email'];
+$password = $_POST['password'];
+$password2 = $_POST['password2'];
+$err = array();
+if(empty($lastname)) {
+$err[] = 'Поле "Фамилия" незаполненно!';
+}
+elseif(empty($name)) {
+$err[] = 'Поле Имя незаполненно!';
+}
+elseif(empty($middlename)) {
+$err[] = 'Поле Отчество незаполненно!';
+}  
+elseif(empty($Email)) {
+$err[] = 'Поле E-mail незаполненно!';
+}
+elseif(empty($password)) {
+$err[] = 'Поле пароль незаполненно!';
+}
+elseif($password != $password2) {
+$err[] = 'Неправельно заполнен пароль2!';
+}
+if(empty($err)) { 
+$sql_select = "SELECT * FROM users WHERE lastname = '$lastname' OR name = '$name' OR middlename = '$middlename' OR Email = '$Email' ";
+$stmt = $conn->query($sql_select);
+$stmt->execute();
+$data = $stmt->fetchAll();
+if(count($data) == 0) {
+$sql_insert = "INSERT INTO users (lastname, name, middlename, Email, password, password2) VALUES (?,?,?,?,?,?)";
+$stmt = $conn->prepare($sql_insert);
+$stmt->bindValue(1, $lastname);
+$stmt->bindValue(2, $name);
+$stmt->bindValue(3, $middlename);
+$stmt->bindValue(4, $Email);
+$stmt->bindValue(5, $password);
+$stmt->bindValue(6, $password2);
+$stmt->execute();
+echo '<div style= "color: blue; text-align: center;">Вы зарегистрированны!</div><hr>';
+}
+else {
+echo '<div style = "color: red; text-align: center;">Такой пользователь уже существует!</div><hr>';
+}
+}
+else {
+echo '<div style = "color: red; text-align: center;">'.array_shift($err).'</div><hr>';
+}
+}
+?> 
