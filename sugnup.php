@@ -103,7 +103,11 @@ $err[] = 'Поле пароль незаполненно!';
 elseif($password != $password2) {
 $err[] = 'Неправельно заполнен пароль2!';
 }
-
+if(empty($err)) {
+$sql_select = "SELECT * FROM table1 WHERE lastname = '$lastname' OR name = '$name' OR middlename = '$middlename' OR Email = '$Email' OR password = '$password'";
+$stmt = $conn->query($sql_select);
+$stmt->execute();
+$data = $stmt->fetchAll(); 
 
 $sql_insert = "INSERT INTO table1 (lastname, name, middlename, Email, password, password2) VALUES (?,?,?,?,?,?)";
 $stmt = $conn->prepare($sql_insert);
