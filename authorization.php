@@ -28,7 +28,7 @@
     <div class="container">
       <div class="row">
       	<div class="col-sm-4">
-          <form class="" action="title.php" method="post">
+          <form class="" action="authorization.php" method="post">
             <legend><h1>Авторизация</h1></legend>
             <div class="form-group">
               <label for="">Логин</label>
