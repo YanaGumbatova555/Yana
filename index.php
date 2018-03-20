@@ -72,18 +72,18 @@
   <div id="header">
   <div class="button_uznai1">
   <a href="\sugnup.php" class="button_uznai1_text">Регистрация</a>
-  <a href="\index.php" class="button_uznai1_text">Вход</a>
+  <a href="\authorization.php" class="button_uznai1_text">Вход</a>
   </div>
   <h1>Online-shop</h1>
   </div>
  
   <div id="sidebar">
    <p><a href="closes.php">Специальные товары</a></p>
-    <p><a href="clouses_all.html">Женская одежда</a></p>
-    <p><a href="clouses_all.html">Мужская одежда</a></p>
-    <p><a href="clouses_all.html">Детская одежда</a></p>
-    <p><a href="clouses_all.html">Обувь</a></p>
-   <p><a href="clouses_all.html">Аксессуары</a></p>
+    <p><a href="">Женская одежда</a></p>
+    <p><a href="">Мужская одежда</a></p>
+    <p><a href="">Детская одежда</a></p>
+    <p><a href="">Обувь</a></p>
+   <p><a href="">Аксессуары</a></p>
   </div>
   
   
