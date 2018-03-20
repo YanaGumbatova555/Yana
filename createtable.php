@@ -6,6 +6,7 @@ try {
 
 $sql = "CREATE TABLE table1(
     id INT NOT NULL IDENTITY(1,1) 
+    PRIMARY KEY(id),
     lastname VARCHAR(30),
     name VARCHAR(30),
     middlename VARCHAR(30),
