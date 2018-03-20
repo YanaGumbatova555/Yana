@@ -114,15 +114,6 @@ $stmt->bindValue(5, $password);
 $stmt->bindValue(6, $password2);
 $stmt->execute();
 echo '<div style= "color: blue; text-align: center;">Вы зарегистрированны!</div><hr>';
-else { 
-echo '<div style = "color: red; text-align: center;">Пользователь с таким логином или E-mail уже существует!</div><hr>'; 
-} 
-} 
-else { 
-echo '<div style = "color: red; text-align: center;">'.array_shift($err).'</div><hr>'; 
-} 
-} 
-
 
 $sql_select = "SELECT * FROM table1";
 $stmt = $conn->query($sql_select);
