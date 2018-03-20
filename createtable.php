@@ -4,12 +4,16 @@ try {
     $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$sql = "CREATE TABLE registration_tbl(
+$sql = "CREATE TABLE table1(
     id INT NOT NULL IDENTITY(1,1) 
     PRIMARY KEY(id),
+    lastname VARCHAR(30),
     name VARCHAR(30),
+    middlename VARCHAR(30),
     Email VARCHAR(30),
-    date DATE)";
+    password VARCHAR(30),
+    password2 VARCHAR(30),
+    )";
     $conn->query($sql);
 }
 catch (PDOException $e) {
