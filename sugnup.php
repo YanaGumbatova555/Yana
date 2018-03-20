@@ -64,3 +64,75 @@
   </body>
 </html>
 
+<?php
+try 
+{
+  $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}
+catch (PDOException $e) 
+{
+print("Error connecting to SQL Server.");
+die(print_r($e));
+}
+
+if (isset($_POST['submit'])) {
+$lastname = $_POST['lastname'];
+$name = $_POST['name'];
+$middlename = $_POST['middlename'];
+$Email = $_POST['Email'];
+$password = $_POST['password'];
+$password2 = $_POST['password2'];
+  
+$err = array(); 
+if(empty($lastname)) {
+$err[] = 'Поле "Фамилия" незаполненно!';
+}
+elseif(empty($name)) {
+$err[] = 'Поле Имя незаполненно!';
+}
+elseif(empty($middlename)) {
+$err[] = 'Поле Отчество незаполненно!';
+}  
+elseif(empty($Email)) {
+$err[] = 'Поле E-mail незаполненно!';
+}
+elseif(empty($password)) {
+$err[] = 'Поле пароль незаполненно!';
+}
+elseif($password != $password2) {
+$err[] = 'Неправельно заполнен пароль2!';
+}
+
+
+$sql_insert = "INSERT INTO table1 (lastname, name, middlename, Email, password, password2) VALUES (?,?,?,?,?,?)";
+$stmt = $conn->prepare($sql_insert);
+$stmt->bindValue(1, $lastname);
+$stmt->bindValue(2, $name);
+$stmt->bindValue(3, $middlename);
+$stmt->bindValue(4, $Email);
+$stmt->bindValue(5, $password);
+$stmt->bindValue(6, $password2);
+$stmt->execute();
+echo '<div style= "color: blue; text-align: center;">Вы зарегистрированны!</div><hr>';
+$sql_select = "SELECT * FROM table1";
+$stmt = $conn->query($sql_select);
+$registrants = $stmt->fetchAll();
+if(count($registrants) > 0) 
+{
+echo "<table>";
+echo "<tr><th>lastname</th>";
+echo "<th>name</th>";
+echo "<th>middlename</th>";
+echo "<th>Email </th>";
+}
+foreach($registrants as $registrant) 
+{
+echo "<tr><td>".$registrant['lastname']."</td>";
+echo "<td>".$registrant['name']."</td>";
+echo "<td>".$registrant['middlename']."</td>";
+echo "<td>".$registrant['Email ']."</td>";
+}
+echo "</table>";
+}
+?> 
