@@ -123,7 +123,7 @@ echo "<table>";
 echo "<tr><th>lastname</th>";
 echo "<th>name</th>";
 echo "<th>middlename</th>";
-echo "<th>Email </th>";
+echo "<th>Email </th></tr>";
 }
 foreach($registrants as $registrant) 
 {
