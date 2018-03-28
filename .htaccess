@@ -1,0 +1,13 @@
+DirectoryIndex index.php
+AddDefaultCharset windows-1251
+AddCharset windows-1251 .php
+RewriteEngine On
+RewriteRule yandex\.(xml|yml)$ /mfunc/yml.php [L]
+RewriteRule price.xls$ mfunc/xls.php [L]
+RewriteRule feed.xml$ mfunc/rss.php [L]
+RewriteRule print.php$ mfunc/printorder.php [L]
+RewriteRule catalog/(.*)\.(html|htm)$ index.php?hurl=$1.$2 [L]
+RewriteRule catalogt/(.*)\.(html|htm)$ index.php?thurl=$1.$2 [L]
+
+
+
