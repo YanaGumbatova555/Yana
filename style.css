@@ -1,47 +1,17 @@
-body {
+div.header{
+  widtg:100%;
+  height:200%;
+  border: 1px solid black;
+}
+div.content{
+    border: 1px solid black;
 
 }
+div.footer{
+    border: 1px solid black;
 
-a {
-  color: #fff;
 }
+div.leftblock{
+    border: 1px solid black;
 
-a:hover {
-  text-decoration: none;
-}
-
-form {
-  width: 350px;
-  max-height: 300px;
-  background-color: rgba(51, 123, 218, 0.45);
-  padding: 20px;
-  margin: 250px -550px 0 auto;
-  font-family: 'Roboto Slab', serif;
-  border-radius: 22px;
-}
-
-.container {
-  width: 450px;
-  height: 400px;
-  background-color: rgba(24, 33, 52, 0.7);
-  margin: 250px auto 0 auto;
-  text-align: center;
-  box-shadow: 0 -5px 0 rgba(51, 114, 237, 0.56);
-  border-radius: 0 0 12px 12px;
-}
-
-input[type="text"], input[type="password"] {
-  width: 250px;
-  height: 50px;
-  font-size: 16em;
-  padding-left: 40px;
-}
-
-.ad-input {
-  padding: 13px 30px;
-  margin: 5px 0 20px 0;
-  font-size: 14em;
-  color: red;
-  border-color: #bf6a1f;
-  cursor: pointer;
 }
