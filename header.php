@@ -11,8 +11,8 @@
 <label>Логин:</label><br>
 <input type="text" name="name" placeholder="Введите ваш логин">
 <label>Пароль:</label><br>
-<input type="password" name="name" placeholder="1234567890">
-<input type="submit" name="submit" value="Войти">
+<input type="password" name="name" placeholder="1234567890"><br>
+<input type="submit" name="submit" value="Войти"><br>
 <button formaction="registration.php">Регистрация</button>
   </form>      
       </div>
