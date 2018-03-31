@@ -1,3 +1,3 @@
-<div class="footer">
-Ссылки
+<div class="footer.php">
+Это ноги/низ
 </div>
