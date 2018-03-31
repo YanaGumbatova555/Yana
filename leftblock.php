@@ -1,4 +1,6 @@
 <div class="leftblock"> 
-это левый блок
+<ul>
+  <li><a href="/closes.php"</a></li>
+</ul>
 </div>
 
