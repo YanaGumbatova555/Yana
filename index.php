@@ -5,6 +5,7 @@
   <?php include_once "leftblock.php" ?>
   
   <div class="content">
+    </div>
     
   <?php include_once "footer.php" ?>
 </html>
