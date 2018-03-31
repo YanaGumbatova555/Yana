@@ -1,5 +1,26 @@
 <div id="special_home" class="grid_12">
       <p style="text-align: center;"><b><font size="4" color="#9d0a0f"><font face="Verdana">Товары по акции</font> </font></b> </p>
+      <table width="996" height="711" cellspacing="1" cellpadding="1" border="0" align="center"> 
+  <tbody> 
+    <tr><td style="border-image: initial;"> 
+        <p align="center"><img src="images/dummy/pic_5.jpg" border="0" width="400" height="260" title="Armani Acqua di Gioia" alt="Armani Acqua di Gioia" /></p>
+          
+       </td><td style="border-image: initial;" width="40" height="" align="center"></td><td style="border-image: initial;" align="center"> 
+        <p> <img src="images/dummy/pic_5.jpg" border="0" width="400" height="260" title="Armani Acqua di Gioia" alt="Armani Acqua di Gioia" /></p>
+       </td></tr>
+      
+    <tr align="center"><td style="border-image: initial;"> 
+        <p><img src="images/dummy/pic_5.jpg" border="0" width="400" height="260" title="Armani Acqua di Gioia" alt="Armani Acqua di Gioia" /></p>
+          
+       </td><td style="border-image: initial;" width="40" height=""></td><td style="border-image: initial;"> 
+        <p> <img src="images/dummy/pic_5.jpg" border="0" width="400" height="260" title="Armani Acqua di Gioia" alt="Armani Acqua di Gioia" /></p>
+       </td></tr>
+   </tbody>
+ </table>
+      
+      
+      
+      
       <h2 class="s_title_1"><span class="s_main_color">Товары по акции</span></h2>
       <div class="clear"></div>
       <div class="s_listing s_grid_view clearfix">
