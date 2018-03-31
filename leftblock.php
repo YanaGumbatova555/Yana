@@ -1,5 +1,4 @@
-ЭТО ЛЕВЫЙ БЛОК
-<div class="leftblock.php"> 
+<div class="leftblock"> 
 это левый блок
 </div>
 
