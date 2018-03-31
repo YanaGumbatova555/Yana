@@ -13,7 +13,7 @@
 <label>Пароль:</label><br>
 <input type="password" name="name" placeholder="1234567890">
 <input type="submit" name="submit" value="Войти">
-<button formaction="registration.php"></button>
+<button formaction="registration.php">Регистрация</button>
   </form>      
       </div>
     </div>
