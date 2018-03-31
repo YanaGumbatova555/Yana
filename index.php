@@ -1,6 +1,6 @@
 <html>
 <head>
-<Title>Регистрационная форма</Title>
+<Title>Интернет-магазин</Title>
 <style type="text/css">
     body { background-color:
  #fff; border-top: solid 10px #000;
