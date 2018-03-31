@@ -3,17 +3,35 @@
       <table width="996" height="711" cellspacing="1" cellpadding="1" border="0" align="center"> 
   <tbody> 
     <tr><td style="border-image: initial;"> 
-        <p align="center"><img src="images/dummy/pic_5.jpg" border="0" width="400" height="260" title="Armani Acqua di Gioia" alt="Armani Acqua di Gioia" /></p>
+        <p align="center"><img src="images/dummy/pic_5.jpg" 
+                 border="0" width="400" height="260" title="Armani Acqua di Gioia" alt="Armani Acqua di Gioia" /></p>
+         <h3><a href="product.html">Armani Acqua di Gioia</a></h3>
+          <p class="s_model">Товар №1</p>
+          <p class="s_price s_promo_price"><span class="s_old_price"><span class="s_currency s_before">$</span><strike>100</strike></span><span class="s_currency s_before">$</span>80</p>
           
        </td><td style="border-image: initial;" width="40" height="" align="center"></td><td style="border-image: initial;" align="center"> 
-        <p> <img src="images/dummy/pic_5.jpg" border="0" width="400" height="260" title="Armani Acqua di Gioia" alt="Armani Acqua di Gioia" /></p>
+        <p> <img src="images/dummy/pic_5.jpg" 
+                 border="0" width="400" height="260" title="Armani Acqua di Gioia" alt="Armani Acqua di Gioia" /></p>
+          <h3><a href="product.html">Armani Acqua di Gioia</a></h3>
+          <p class="s_model">Товар №1</p>
+          <p class="s_price s_promo_price"><span class="s_old_price"><span class="s_currency s_before">$</span><strike>100</strike></span><span class="s_currency s_before">$</span>80</p>
+          
        </td></tr>
       
     <tr align="center"><td style="border-image: initial;"> 
-        <p><img src="images/dummy/pic_5.jpg" border="0" width="400" height="260" title="Armani Acqua di Gioia" alt="Armani Acqua di Gioia" /></p>
+        <p><img src="images/dummy/pic_5.jpg" 
+                border="0" width="400" height="260" title="Armani Acqua di Gioia" alt="Armani Acqua di Gioia" /></p>
+          <h3><a href="product.html">Armani Acqua di Gioia</a></h3>
+          <p class="s_model">Товар №1</p>
+          <p class="s_price s_promo_price"><span class="s_old_price"><span class="s_currency s_before">$</span><strike>100</strike></span><span class="s_currency s_before">$</span>80</p>
+          
           
        </td><td style="border-image: initial;" width="40" height=""></td><td style="border-image: initial;"> 
-        <p> <img src="images/dummy/pic_5.jpg" border="0" width="400" height="260" title="Armani Acqua di Gioia" alt="Armani Acqua di Gioia" /></p>
+        <p> <img src="images/dummy/pic_5.jpg" 
+                 border="0" width="400" height="260" title="Armani Acqua di Gioia" alt="Armani Acqua di Gioia" /></p>
+          <h3><a href="product.html">Armani Acqua di Gioia</a></h3>
+          <p class="s_model">Товар №1</p>
+          <p class="s_price s_promo_price"><span class="s_old_price"><span class="s_currency s_before">$</span><strike>100</strike></span><span class="s_currency s_before">$</span>80</p>
        </td></tr>
    </tbody>
  </table>
