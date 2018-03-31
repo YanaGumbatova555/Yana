@@ -4,7 +4,8 @@
 </head>
 
 <div class="header"> 
-Это голова
+  
+<p style="text-align: left;"><b><font size="6" color="#9d0a0f"><font face="Verdana">Магазин одежды</font> </font></b></p>
   
 <div class="loginform">   
 
