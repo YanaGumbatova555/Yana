@@ -1,4 +1,4 @@
 <div class="leftblock.php"> 
-Название
+это левый блок
 </div>
 
