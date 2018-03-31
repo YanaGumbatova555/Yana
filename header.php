@@ -4,9 +4,7 @@
 </head>
 
 <div class="header"> 
-  
-<p><b><font size="8" color="#9d0a0f">Магазин одежды</font></b></p>
-  
+  Магазин одежды
 <div class="loginform">   
 
 <form action="login.php" method="get">
