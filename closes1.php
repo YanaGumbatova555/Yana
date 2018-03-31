@@ -10,7 +10,7 @@
 <a class="" href=".html">Добавить в корзину</a>
       
 </td><td style="border-image: initial;" width="40" height="" align="center"></td><td style="border-image: initial;" align="center"> 
-<p align="center"><img src="closes/womencloses2.jpg.jpg" border="0" width="400" height="300"/></p>
+<p align="center"><img src="closes/womencloses2.jpg" border="0" width="400" height="300"/></p>
 <h3><a href="product.html">Джинсы</a></h3>
 <p class="s_model">Товар №2</p>
 <p class="s_price s_promo_price"><span class="s_old_price">
@@ -20,7 +20,7 @@
 </td></tr>
       
 <tr align="center"><td style="border-image: initial;"> 
-<p align="center"><img src="closes/womencloses3.jpg.jpg" border="0" width="400" height="300"/></p>
+<p align="center"><img src="closes/womencloses3.jpg" border="0" width="400" height="300"/></p>
 <h3><a href="product.html">Футболка</a></h3>
 <p class="s_model">Товар №3</p>
 <p class="s_price s_promo_price"><span class="s_old_price">
@@ -28,7 +28,7 @@
 <a class="" href=".html">Добавить в корзину</a>
       
 </td><td style="border-image: initial;" width="40" height=""></td><td style="border-image: initial;"> 
-<p align="center"><img src="closes/womencloses4.jpg.jpg" border="0" width="400" height="300"/></p>
+<p align="center"><img src="closes/womencloses4.jpg" border="0" width="400" height="300"/></p>
 <h3><a href="product.html">Брюки</a></h3>
 <p class="s_model">Товар №4</p>
 <p class="s_price s_promo_price"><span class="s_old_price">
