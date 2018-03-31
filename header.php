@@ -1,3 +1,7 @@
+<head>
+<link href="style.css" rel="stylesheet">
+</head>
+
 <div class="header.php"> 
-Верх
+Это голова
 </div>
