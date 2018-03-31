@@ -48,3 +48,51 @@
   </body>
 </html>
 
+<?php
+try 
+{
+  $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}
+catch (PDOException $e) 
+{
+print("Error connecting to SQL Server.");
+die(print_r($e));
+}
+
+if (isset($_POST['submit'])) {
+$login = $_POST['login'];
+$password = $_POST['password'];
+  
+$err = array(); 
+if(empty($login)) {
+$err[] = 'Поле "Логин" не заполненно!';
+}
+elseif(empty($password)) {
+$err[] = 'Поле пароль не заполненно!';
+}
+
+$sql_insert = "INSERT INTO table1 (login, password) VALUES (?,?)";
+$stmt = $conn->prepare($sql_insert);
+$stmt->bindValue(1, $login);
+$stmt->bindValue(2, $password);
+$stmt->execute();
+echo '<div style= "color: blue; text-align: center;">Добро пожаловать!</div><hr>';
+
+$sql_select = "SELECT * FROM table1";
+$stmt = $conn->query($sql_select);
+$registrants = $stmt->fetchAll();
+if(count($registrants) > 0) 
+{
+echo "<table>";
+echo "<tr><th>login-</th></br>";
+  echo "<th>password</th></tr>";
+}
+foreach($registrants as $registrant) 
+{
+echo "<tr><td>".$registrant['login']."</td>";
+echo "<td>".$registrant['password']."</td></tr>";
+}
+echo "</table>";
+}
+?> 
