@@ -1,5 +1,6 @@
 <div id="special_home" class="grid_12">
-      <h2 class="s_title_1"><span class="s_main_color">Специальные продукты</span></h2>
+      <p style="text-align: center;"><b><font size="4" color="#9d0a0f"><font face="Verdana">Товары по акции</font> </font></b> </p>
+      <h2 class="s_title_1"><span class="s_main_color">Товары по акции</span></h2>
       <div class="clear"></div>
       <div class="s_listing s_grid_view clearfix">
         <div class="s_item grid_2"><img src="images/dummy/pic_5.jpg" title="Armani Acqua di Gioia" alt="Armani Acqua di Gioia" /></a>
