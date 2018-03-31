@@ -5,7 +5,7 @@
 
 <div class="header"> 
   
-<p><b><font size="4" color="#9d0a0f"><font face="Verdana">Магазин одежды</font> </font></b></p>
+<p><b><font size="8" color="#9d0a0f"><font face="Verdana">Магазин одежды</font> </font></b></p>
   
 <div class="loginform">   
 
