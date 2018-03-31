@@ -2,6 +2,6 @@
 <link href="style.css" rel="stylesheet">
 </head>
 
-<div class="header.php"> 
+<div class="header"> 
 Это голова
 </div>
