@@ -1,3 +1,3 @@
 <div class="footer">
-Это ноги/низ
+@YanaGumbatova
 </div>
