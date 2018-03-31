@@ -2,7 +2,7 @@
       <p style="text-align: center;"><b><font size="4" color="#9d0a0f"><font face="Verdana">Товары по акции</font> </font></b> </p>
 <table width="996" height="711" cellspacing="1" cellpadding="1" border="0" align="center"> 
 <tbody> 
-<tr><td style="border-image: initial; "> 
+<tr><td style="border-image: initial; width="40" height="" align="center"> 
 <p align="center"><img src="images/dummy/pic_5.jpg" border="0" width="400" height="300"/></p>
 <h3><a href="product.html">Armani Acqua di Gioia</a></h3>
 <p class="s_model">Товар №1</p>
