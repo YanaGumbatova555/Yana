@@ -3,8 +3,6 @@
 </head>
 
 <div class="header"> 
-<ul>
-  <li><a href="\autorization.php">Вход</a></li>
-  <li><a href="\sugnup.php">Регистрация</a></li>
-</ul>
+  <p><a href="\autorization.php">Вход</a></p>
+  <p><a href="\sugnup.php">Регистрация</a></p>
 </div>
