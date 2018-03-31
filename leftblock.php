@@ -1,4 +1,4 @@
-<div class="leftblock"> 
+<div class="leftblock.php"> 
 Название
 </div>
 
