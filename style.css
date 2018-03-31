@@ -4,6 +4,8 @@ div.header
   height: 35%;
   border: 1px solid black;
 }
+
+
 div.leftblock
 {
   display: inline-block;
@@ -14,6 +16,8 @@ div.leftblock
   border: 1px solid black;
   padding: 5px;
 }
+
+
 div.content
 {
   padding: 5px;
@@ -23,6 +27,8 @@ div.content
   display: inline-block;
   border: 1px solid black;
 }
+
+
 div.footer
 {
   display: inline-block;
@@ -30,6 +36,15 @@ div.footer
   height:25px;
   border: 1px solid black;
 }
+
+
+div.loginform
+{
+  float:left;
+  width:200px;
+  height: 100%;
+}
+
 ul li
 {
   margin-right: 5px;
