@@ -3,11 +3,8 @@
 </head>
 
 <div class="header"> 
-Это голова
-<div class="loginform">
-
-<form action="registration.php" method="get">
-</form>
-  
-</div>
+<ul>
+  <li><a href="\autorization.php">Вход</a></li>
+  <li><a href="\sugnup.php">Регистрация</a></li>
+</ul>
 </div>
