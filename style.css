@@ -83,3 +83,12 @@ ul li:hover
   background-color: #EE6475;
   color: white;
 }
+#block-catt > p > span.corner-down{
+  background: url(/closes/womencloses1.phg) no-repeat;
+  width: 12px;
+  height: 7px;
+  display: block;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -13px;
+}
