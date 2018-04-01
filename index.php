@@ -29,7 +29,7 @@
         <ul id="listing">
             <li>
                 <div class="fixblock">
-                    <center><img src="1.jpg" /></center>
+                    <center><img src="1.jpeg" /></center>
                 </div>
               <p class="price-tovar">2 500 руб</p>
              <p price="2500" rel="1" class="add-tovar"></p>
