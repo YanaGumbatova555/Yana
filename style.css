@@ -108,3 +108,16 @@ ul li:hover
   margin-top: -1px;
   display: none;
 }
+#block-cart > div{
+  font: 15px sans-serif;
+  margin: 5px;
+  color: #B94848;
+}
+#block-cart > div > p > span{
+  font: 18px sans-serif;
+  display: block;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: -18px;
+  color: black;
+}
