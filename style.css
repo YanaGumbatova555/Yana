@@ -83,7 +83,7 @@ ul li:hover
   background-color: #EE6475;
   color: white;
 }
-#block-catt > p > span.corner-down{
+#block-cart > p > span.corner-down{
   background: url(/icon/bullet_arrow_down.png) no-repeat;
   width: 12px;
   height: 7px;
@@ -92,7 +92,7 @@ ul li:hover
   margin-left: 150px;
   margin-top: -13px;
 }
-#block-catt > p > span.corner-up{
+#block-cart > p > span.corner-up{
   background: url(/icon/bullet_arrow_up.png) no-repeat;
   width: 12px;
   height: 7px;
