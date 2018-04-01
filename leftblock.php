@@ -7,9 +7,9 @@
 </ul>
   
   <div class="content">
-  <p align="center"><img src="/баннер1.png" align="centre" border="0" width="200" height="150"/></p>
-  <p align="center"><img src="/баннер2.png" align="centre" border="0" width="200" height="150"/></p>
-    
+  <p align="center"><img src="/баннер1.png" align="centre" border="0" width="300" height="250"/></p>
+  <p align="center"><img src="/баннер2.png" align="centre" border="0" width="300" height="250"/></p>
+   
   </div>
 </div>
 
