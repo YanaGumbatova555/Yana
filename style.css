@@ -56,3 +56,9 @@ ul li:hover
   background: red;
 }
 
+#blockbody{
+  width: 800px;
+  height: auto;
+  border: 1px solid black;
+  margin: 50px auto;
+}
