@@ -29,7 +29,7 @@
         <ul id="listing">
             <li>
                 <div class="fixblock">
-                    <center><img src="1.jpg" border="0" width="50" height="50"/></center>
+                    <center><img src="1.jpg" border="0" width="100" height="100"/></center>
                 </div>
               <p class="price-tovar">2 500 руб</p>
              <p price="2500" rel="1" class="add-tovar"></p>
@@ -37,7 +37,7 @@
              
           <li>
                 <div class="fixblock">
-                    <center><img src="2.jpg" border="0" width="50" height="50"/></center>
+                    <center><img src="2.jpg" border="0" width="100" height="100"/></center>
                 </div>
               <p class="price-tovar">2 500 руб</p>
              <p price="1500" rel="1" class="add-tovar"></p>
@@ -45,7 +45,7 @@
             
        <li>
                 <div class="fixblock">
-                    <center><img src="3.jpg" border="0" width="50" height="50"/></center>
+                    <center><img src="3.jpg" border="0" width="100" height="100"/></center>
                 </div>
               <p class="price-tovar">2 500 руб</p>
              <p price="2500" rel="1" class="add-tovar"></p>
@@ -53,7 +53,7 @@
                         
         <li>
                 <div class="fixblock">
-                    <center><img src="4.jpg" border="0" width="50" height="50"/></center>
+                    <center><img src="4.jpg" border="0" width="100" height="100"/></center>
                 </div>
               <p class="price-tovar">2 500 руб</p>
              <p price="1500" rel="1" class="add-tovar"></p>
