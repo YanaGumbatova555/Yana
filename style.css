@@ -121,3 +121,14 @@ ul li:hover
   margin-top: -18px;
   color: black;
 }
+#block-cart > div > a{
+  font: 14px sans-serif;
+  display: inline-block;
+  padding: 4px;
+  border: 1px solid #E2E2E2;
+  margin-left: 5px;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #E9E9E9
+  color: black;
+}
