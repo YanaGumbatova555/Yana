@@ -21,9 +21,10 @@
                        <p>На сумму: <span price="0" id="price">0</span></p>
                        <a href="">Оформить</a>
            </div> 
-    </div> 
+   
     <div id="block-content">    
-</div>
+  </div>
+</div> 
 </body>
   
 </html>
