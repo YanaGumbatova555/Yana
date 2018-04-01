@@ -108,7 +108,7 @@ ul li:hover
   margin-top: -1px;
   display: none;
 }
-#block-cart > div{
+#block-cart > div > p{
   font: 15px sans-serif;
   margin: 5px;
   color: #B94848;
@@ -126,8 +126,8 @@ ul li:hover
   display: inline-block;
   padding: 4px;
   border: 1px solid #E2E2E2;
-  margin-left: 5px;
   margin-top: 10px;
+  margin-left: 5px;
   text-decoration: none;
   background-color: #E9E9E9
   color: black;
