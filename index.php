@@ -3,8 +3,7 @@
 <head>
 <?php include_once "header.php" ?>
 <?php include_once "leftblock.php" ?>
-<link  href="/style.css" rel="stylesheet" type="text/css"/>
-       <?php include_once "footer.php" ?>  
+<link  href="/style.css" rel="stylesheet" type="text/css"/>  
 <title>Интернет-магазин</title> 
 
 </head>
@@ -18,7 +17,7 @@
            </div> 
     </div> 
 </div>
-    
+    <?php include_once "footer.php" ?> 
 </body>
   
 </html>
