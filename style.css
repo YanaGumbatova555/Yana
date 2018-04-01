@@ -67,3 +67,7 @@ ul li:hover
   width: 600px;
   height: auto;
 }
+#block-cart{
+  float: right;
+  border: 1px solid black;
+}
