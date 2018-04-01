@@ -84,7 +84,7 @@ ul li:hover
   color: white;
 }
 #block-cart > p > span.corner-down{
-  background: url(/bullet_arrow_down.png) no-repeat;
+  background: url(\bullet_arrow_down.png) no-repeat;
   width: 12px;
   height: 7px;
   display: block;
@@ -93,7 +93,7 @@ ul li:hover
   margin-top: -13px;
 }
 #block-cart > p > span.corner-up{
-  background: url(/bullet_arrow_up.png) no-repeat;
+  background: url(\bullet_arrow_up.png) no-repeat;
   width: 12px;
   height: 7px;
   display: block;
@@ -145,7 +145,7 @@ ul li:hover
   height: 250px;
 }
 #listing p.add-tovar{
-  background: url(/add-cart-norm.png) no-repeat;
+  background: url(\add-cart-norm.png) no-repeat;
   display: inline-block;
   margin: 0;
   width: 48px;
@@ -153,10 +153,10 @@ ul li:hover
   cursor: pointer;
 }
 #listing p.add-tovar:hover{
-  background: url(/add-cart-hover.png) no-repeat;
+  background: url(\add-cart-hover.png) no-repeat;
 }
 #listing p.add-tovar:active{
-  background: url(/add-cart-active.png) no-repeat;
+  background: url(\add-cart-active.png) no-repeat;
 }
 #listing p.price-tovar{
   float: left;
