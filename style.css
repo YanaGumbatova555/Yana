@@ -62,3 +62,8 @@ ul li:hover
   border: 1px solid black;
   margin: 50px auto;
 }
+
+#block-content{
+  width: 600px;
+  height: auto;
+}
