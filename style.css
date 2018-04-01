@@ -71,14 +71,15 @@ ul li:hover
   float: right;
   border: 1px solid black;
 }
-#block-cart > div > a{
+#block-cart > p{
   font: 14px sans-serif;
-  display: inline-block;
-  padding: 4px;
-  border: 1px solid #E2E2E2;
-  margin-top: 10px;
-  margin-left: 5px;
-  text-decoration: none;
-  background-color: #E9E9E9;
-  color: black;
+  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 190px;
+  border: 1px solid #EE6475;
+  margin: 0;
+  padding-left: 5px;
+  background-color: #EE6475;
+  color: white;
 }
