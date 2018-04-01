@@ -152,3 +152,28 @@ ul li:hover
   height: 25px;
   cursor: pointer;
 }
+#listing p.add-tovar:hover{
+  background: url(/add-cart-hover.png) no-repeat;
+}
+#listing p.add-tovar:active{
+  background: url(/add-cart-active.png) no-repeat;
+}
+#listing p.price-tovar{
+  float: left;
+  margin-top: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font: 17px sans-serif;
+}
+.fixblock{
+  height:200px;
+  padding-top: 10px;
+}
+.messagecart{
+  border: 1px solid black;
+  padding: 3px;
+  font: 13px sans-serif;
+  display: none;
+  position: absolute;
+  background-color: white;
+}
