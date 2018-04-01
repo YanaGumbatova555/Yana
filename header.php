@@ -4,7 +4,7 @@
 </head>
 
 <div class="header"> 
-  Магазин одежды
+  
 <div class="loginform">   
 
 <form action="login.php" method="get">
