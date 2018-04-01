@@ -11,8 +11,10 @@
 <body>
     
 <div id="blockbody">  
- <div id="block-content">    
+    <div id="block-content">    
+           <div id="block-cart">    
  
+           </div> 
     </div> 
 </div>
     
