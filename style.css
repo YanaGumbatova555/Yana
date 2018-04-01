@@ -132,3 +132,23 @@ ul li:hover
   background-color: #E9E9E9
   color: black;
 }
+
+
+
+#listing{
+  margin-top: -10px;
+}
+#listing li{
+  float: left;
+  margin-left: 10px;
+  width: auto;
+  height: 250px;
+}
+#listing p.add-tovar{
+  background: url(/add-cart-norm.png) no-repeat;
+  display: inline-block;
+  margin: 0;
+  width: 48px;
+  height: 25px;
+  cursor: pointer;
+}
