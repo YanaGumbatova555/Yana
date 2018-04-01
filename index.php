@@ -29,7 +29,7 @@
         <ul id="listing">
             <li>
                 <div class="fixblock">
-                    <center><img src=/closes/womencloses1.png" /></center>
+                    <center><img src="1.jpg" /></center>
                 </div>
               <p class="price-tovar">2 500 руб</p>
              <p price="2500" rel="1" class="add-tovar"></p>
@@ -37,7 +37,7 @@
              
           <li>
                 <div class="fixblock">
-                    <center><img src=/closes/womencloses2.png" /></center>
+                    <center><img src="2.jpg" /></center>
                 </div>
               <p class="price-tovar">2 500 руб</p>
              <p price="2500" rel="1" class="add-tovar"></p>
@@ -45,7 +45,7 @@
             
        <li>
                 <div class="fixblock">
-                    <center><img src=/closes/womencloses3.png" /></center>
+                    <center><img src="2.jpg" /></center>
                 </div>
               <p class="price-tovar">2 500 руб</p>
              <p price="2500" rel="1" class="add-tovar"></p>
@@ -53,7 +53,7 @@
                         
         <li>
                 <div class="fixblock">
-                    <center><img src=/closes/womencloses4.png" /></center>
+                    <center><img src="2.jpg" /></center>
                 </div>
               <p class="price-tovar">2 500 руб</p>
              <p price="2500" rel="1" class="add-tovar"></p>
