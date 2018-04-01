@@ -22,7 +22,42 @@
                        <a href="">Оформить</a>
            </div> 
    </div> 
-    <div id="block-content">    
+    <div id="block-content">   
+    
+        <p class="messagecart"></p>
+        
+        <ul id="listing">
+            <li>
+                <div class="fixblock">
+                    <center><img src=/closes/womencloses1.png" /></center>
+                </div>
+              <p class="price-tovar">2 500 руб</p>
+             <p price="2500" rel="1" class="add-tovar"></p>
+           </li>
+             
+          <li>
+                <div class="fixblock">
+                    <center><img src=/closes/womencloses2.png" /></center>
+                </div>
+              <p class="price-tovar">2 500 руб</p>
+             <p price="2500" rel="1" class="add-tovar"></p>
+        </li>      
+            
+       <li>
+                <div class="fixblock">
+                    <center><img src=/closes/womencloses3.png" /></center>
+                </div>
+              <p class="price-tovar">2 500 руб</p>
+             <p price="2500" rel="1" class="add-tovar"></p>
+           </li>
+                        
+        <li>
+                <div class="fixblock">
+                    <center><img src=/closes/womencloses4.png" /></center>
+                </div>
+              <p class="price-tovar">2 500 руб</p>
+             <p price="2500" rel="1" class="add-tovar"></p>
+           </li>
   </div>
  
 </body>
