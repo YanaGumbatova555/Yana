@@ -40,7 +40,7 @@
                     <center><img src="2.jpg" /></center>
                 </div>
               <p class="price-tovar">2 500 руб</p>
-             <p price="2500" rel="1" class="add-tovar"></p>
+             <p price="1500" rel="1" class="add-tovar"></p>
         </li>      
             
        <li>
@@ -56,7 +56,7 @@
                     <center><img src="4.jpg" /></center>
                 </div>
               <p class="price-tovar">2 500 руб</p>
-             <p price="2500" rel="1" class="add-tovar"></p>
+             <p price="1500" rel="1" class="add-tovar"></p>
            </li>
   </div>
  
