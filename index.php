@@ -113,11 +113,11 @@ if(count($registrants) > 0)
 {
 echo "<h2>Зарегестрированные пользователи:</h2>"; 
 echo "<table>";
-echo "<tr><th>lastname-</th></br>";
-echo "<th>name-</th></br>";
-echo "<th>middlename-</th></br>";
-echo "<th>Email</th></br>";
-  echo "<th>login</th></tr>";
+echo "<tr><th>lastname-</th>";
+echo "<th>name-</th>";
+echo "<th>middlename-</th>";
+echo "<th>Email</th>";
+  echo "<th>login</th>";
 }
 foreach($registrants as $registrant) 
 {
