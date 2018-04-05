@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -60,7 +59,8 @@
                 <label>Повторите пароль</label>
                 <input class="form-control" type="password" name="password2">
               </div>
-              <input class="sub" type="submit" name="submit" value="Регистрация">
+              <input class="submit" type="submit" name="submit" value="Регистрация">
+              <a href="https://gumb1.azurewebsites.net/index.php">Вход</a>
             </form>
         </div>
       </div>
