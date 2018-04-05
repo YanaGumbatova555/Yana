@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <?php include_once "header.php" ?>
+<?php include_once "leftblock.php" ?>
+<?php include_once "footer.php" ?> 
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <title>Регистрация</title>
