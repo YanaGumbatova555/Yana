@@ -78,16 +78,6 @@ catch (PDOException $e) {
 print("Ошибка подключения к SQL Server."); 
 die(print_r($e)); 
 } 
-
-
-if (isset($_POST['submit'])) {
-$lastname = $_POST['lastname'];
-$name = $_POST['name'];
-$middlename = $_POST['middlename'];
-$Email = $_POST['Email'];
-$login = $_POST['login'];
-$password = $_POST['password'];
-$password2 = $_POST['password2'];
   
 if(!empty($_POST)) { 
 try { 
