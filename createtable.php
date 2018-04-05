@@ -11,13 +11,14 @@ $sql = "CREATE TABLE table1(
     name VARCHAR(30),
     middlename VARCHAR(30),
     Email VARCHAR(30),
+    login VARCHAR(30),
     password VARCHAR(30),
-    password2 VARCHAR(30)
     )";
     $conn->query($sql);
+    echo "<h3>Таблица создана!</h3>"; 
 }
 catch (PDOException $e) {
-    print("Error connecting to SQL Server.");
+    print("Ошибка подключения к SQL Server.");
     die(print_r($e));
 }
 
