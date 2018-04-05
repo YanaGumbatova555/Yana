@@ -30,7 +30,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-            <form method="post" action="sugnup.php">
+            <form method="post" action="index.php">
               <legend><h1>Регистрация</h1></legend>
               <div class="form-group">
                 <label for="" >Фамилия</label>
@@ -61,7 +61,6 @@
                 <input class="form-control" type="password" name="password2">
               </div>
               <input class="submit" type="submit" name="submit" value="Регистрация">
-              <a href="https://gumb1.azurewebsites.net/index.php">Вход</a>
             </form>
         </div>
       </div>
