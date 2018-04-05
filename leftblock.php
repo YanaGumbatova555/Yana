@@ -7,7 +7,7 @@
 <label>Пароль:</label><br>
 <input type="password" name="password" placeholder="1234567890"><br>
 <input type="submit" name="submit" value="Войти">
-<button formaction="sugnup.php">Регистрация</button>
+<button formaction="index.php">Регистрация</button>
 </form>      
 </div>
 </div>
