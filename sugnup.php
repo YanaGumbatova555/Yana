@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-	<html>
-	  <head>
-	    <meta charset="utf-8">
-	    <link rel="stylesheet" href="/style1.css">
-		  <title>Регистрация</title>
-	  </head>
-	  <body>
-	    <div class="container">
-		    <a href="/index.php"></a>
-	            <form class="" action="sugnup.php" method="post">
-	              <legend><h1>Регистрация</h1></legend>
-	              <div class="dws-input">
-<input type="text" name="lastname" placeholder="Введите фамилию...">
-<input type="text" name="name" placeholder="Введите имя...">
-<input type="text" name="middlename" placeholder="Введите отчество...">
-<input type="text" name="Email" placeholder="Введите ваш адрес эл.почты...">
-<input type="text" name="login" placeholder="Придумайте логин...">
-<input type="password" name="password" placeholder="Придумайте пароль...">
-<input type="password" name="password2" placeholder="Повторите пароль...">
-			    </div>
-<input class="sub" type="submit" name="submit" value="Регистрация">
-	            </form>
-	        </div>
-	  </body>
-	</html>
-	
-
-	<?php
+<?php
 
 	require_once('db1.php');
 	
@@ -93,5 +65,33 @@
         echo '<div style = "color: red;">'.array_shift($err).'</div><hr>'; 
     }
 }
-?>    
+?>  
+
+<!DOCTYPE html>
+	<html>
+	  <head>
+	    <meta charset="utf-8">
+	    <link rel="stylesheet" href="/style1.css">
+		  <title>Регистрация</title>
+	  </head>
+	  <body>
+	    <div class="container">
+		    <a href="/index.php"></a>
+	            <form class="" action="sugnup.php" method="post">
+	              <legend><h1>Регистрация</h1></legend>
+	              <div class="dws-input">
+<input type="text" name="lastname" placeholder="Введите фамилию...">
+<input type="text" name="name" placeholder="Введите имя...">
+<input type="text" name="middlename" placeholder="Введите отчество...">
+<input type="text" name="Email" placeholder="Введите ваш адрес эл.почты...">
+<input type="text" name="login" placeholder="Придумайте логин...">
+<input type="password" name="password" placeholder="Придумайте пароль...">
+<input type="password" name="password2" placeholder="Повторите пароль...">
+			    </div>
+<input class="sub" type="submit" name="submit" value="Регистрация">
+	            </form>
+	        </div>
+	  </body>
+	</html>
+	  
 
