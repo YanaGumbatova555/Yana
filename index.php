@@ -33,7 +33,8 @@ require_once('db1.php');
  
       
       <form class="" action="index.php" method="post">
-        <div class="dws-input">
+        </br>
+      <div class="dws-input">
           <input type="text" name="lastname" placeholder="Введите логин...">
         </div>
         <div class="dws-input">
