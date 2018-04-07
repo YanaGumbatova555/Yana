@@ -37,14 +37,14 @@
 	
 	
 	    if(empty($err)) {
-        $sql_select = "SELECT * FROM table1 WHERE username = '$lastname'";
+        $sql_select = "SELECT * FROM t1 WHERE username = '$lastname'";
         $stmt = $conn->query($sql_select);
         $stmt->execute();
         $data = $stmt->fetchAll();
 		
 		    
 		    if(count($data) == 0) {
-        $sql_insert = "INSERT INTO table1 (lastname, name, middlename, Email, login, password) VALUES (?,?,?,?,?,?)";
+        $sql_insert = "INSERT INTO t1 (lastname, name, middlename, Email, login, password) VALUES (?,?,?,?,?,?)";
 	$stmt = $conn->prepare($sql_insert);
 	$stmt->bindValue(1, $lastname);
 	$stmt->bindValue(2, $name);
