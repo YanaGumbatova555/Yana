@@ -13,23 +13,23 @@
 	$password2 = $_POST['password-2'];
 	  
 	$err = array(); 
-	if($lastname = '') {
-	$err[] = 'Поле "Фамилия" не заполненно!';
+	if(empty($lastname)) {
+	$err[] = 'Поле Фамилия не заполненно!';
 	}
-	elseif($name = '') {
-	$err[] = 'Поле "Имя" не заполненно!';
+	elseif(empty($name)) {
+	$err[] = 'Поле Имя не заполненно!';
 	}
-	elseif($middlename = '') {
-	$err[] = 'Поле "Отчество" не заполненно!';
+	elseif(empty($middlename)) {
+	$err[] = 'Поле Отчество не заполненно!';
 	}  
-	elseif($Email = '') {
-	$err[] = 'Поле "E-mail" не заполненно!';
+	elseif(empty($Email)) {
+	$err[] = 'Поле E-mail не заполненно!';
 	}
-	  elseif($login = '') {
-	$err[] = 'Поле "Логин" не заполненно!';
+	elseif(empty($login)) {
+	$err[] = 'Поле Логин не заполненно!';
 	}
-	elseif($password = '') {
-	$err[] = 'Поле "Пароль" не заполненно!';
+	elseif(empty($password)) {
+	$err[] = 'Поле Пароль не заполненно!';
 	}
 	elseif($password != $password2) {
 	$err[] = 'Не верно заполнен пароль!';
