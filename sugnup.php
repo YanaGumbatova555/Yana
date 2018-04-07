@@ -44,7 +44,7 @@
 		
 		    
 		    if(count($data) == 0) {
-        $sql_insert = "INSERT INTO table1 (lastname, name, middlename, Email, login, password, password2) VALUES (?,?,?,?,?,?,?)";
+        $sql_insert = "INSERT INTO table1 (lastname, name, middlename, Email, login, password) VALUES (?,?,?,?,?,?)";
 	$stmt = $conn->prepare($sql_insert);
 	$stmt->bindValue(1, $lastname);
 	$stmt->bindValue(2, $name);
@@ -52,7 +52,6 @@
 	$stmt->bindValue(4, $Email);
 	$stmt->bindValue(5, $login);
 	$stmt->bindValue(6, $password);
-	$stmt->bindValue(7, $password2);
 	$stmt->execute();
             
             echo '<div style= "color: black;">Вы зарегистрированны!</div><hr>';
