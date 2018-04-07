@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="style.css" rel="stylesheet">
     <title>Свойство list-style-type.</title>
 <style>
       ol {
