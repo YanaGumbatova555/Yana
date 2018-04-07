@@ -15,7 +15,7 @@ $sql = "CREATE TABLE t1(
     middlename VARCHAR(30),
     email VARCHAR(30),
     login VARCHAR(30),
-    password VARCHAR(30)";
+    password VARCHAR(30))";
     $conn->query($sql);
     
     echo "<h3>Таблица создана!</h3>"; 
