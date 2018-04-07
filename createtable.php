@@ -1,5 +1,5 @@
 <?
-$dsn = "sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = insurance";
+$dsn = "sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1";
 $login = "Yana";
 $pass = "Sobachka.1";
 
