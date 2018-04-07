@@ -26,7 +26,7 @@ require_once('db1.php');
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/style2.css">
-    <title>Авторизация</title>
+    <title>Вход</title>
   </head>
   <body>
     <div class="container">
