@@ -7,7 +7,7 @@
 	  </head>
 	  <body>
 	    <div class="container">
-		    <a href="/index.php"><img src="/fon.png"></a>
+		    <a href="/index.php"></a>
 	            <form class="" action="sugnup.php" method="post">
 	              <legend><h1>Регистрация</h1></legend>
 	              <div class="dws-input">
