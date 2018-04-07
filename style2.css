@@ -63,10 +63,6 @@ input[type="text"], input[type="password"] {
   color: #2c536c;
 }
 
-.dws-input:nth-child(2)::before {
-  content: "\f023";
-}
-
 
 .dws-input:hover::before {
   color: #319ebc;
@@ -93,3 +89,6 @@ input[type="text"], input[type="password"] {
     .form-control {
       width: 270px;
     }
+      label {
+	      float: left;
+	    }
