@@ -10,7 +10,7 @@
 	$Email = $_POST['Email'];
 	$login = $_POST['login'];
 	$password = $_POST['password'];
-	$password2 = $_POST['password2'];
+	$password2 = $_POST['password-2'];
 	  
 	$err = array(); 
 	if($lastname = '') {
@@ -85,7 +85,7 @@
 <input type="text" name="Email" placeholder="Введите ваш адрес эл.почты...">
 <input type="text" name="login" placeholder="Придумайте логин...">
 <input type="password" name="password" placeholder="Придумайте пароль...">
-<input type="password" name="password2" placeholder="Повторите пароль...">
+<input type="password" name="password-2" placeholder="Повторите пароль...">
 			    </div>
 <input class="sub" type="submit" name="submit" value="Регистрация">
 	            </form>
