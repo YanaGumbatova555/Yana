@@ -1,5 +1,5 @@
 body {
-  background-image: url("/fon.jpg");
+  background-image: url("/fon.png");
 }
 
 a {
@@ -77,8 +77,8 @@ input[type="text"], input[type="password"], input[type="date"] {
 
 
 .container {
-	      width: 300px;
-	      height: 380px;
+	      width: 350px;
+	      height: 700px;
 	      margin: 100px auto 0 auto;
 	      text-align: center;
 	      background-color: #afacaa;
