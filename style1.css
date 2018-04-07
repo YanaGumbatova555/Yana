@@ -1,0 +1,19 @@
+.container {
+	      width: 300px;
+	      height: 620px;
+	      margin: 100px auto 0 auto;
+	      text-align: center;
+	      background-color: #afacaa;
+	    }
+	    .sub {
+	      text-align: center;
+	      margin-left: 90px;
+	      width: 95px;
+	      height: 30px;
+	    }
+	    .form-control {
+	      width: 270px;
+	    }
+	    label {
+	      float: left;
+	    }
