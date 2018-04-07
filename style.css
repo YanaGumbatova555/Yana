@@ -1,18 +1,9 @@
-body {
-  background-image: url("/fon.png");
-}
-
 div.header
 {
   width: 100%;
   height: 10%;
   border: 1px solid black;
 }
-
-ul {
-  list-style-type: none;
-}
-
 
 div.leftblock
 {
