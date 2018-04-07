@@ -55,8 +55,6 @@ input[type="text"], input[type="password"] {
 
 
 .dws-input::before {
-  font-family: "FontAwesome";
-  content:  "\f007";
   position: absolute;
   font-size: 30px;
   padding: 10px 0 0 7px;
