@@ -2,7 +2,7 @@
 <html>
 <head>
     <link href="style.css" rel="stylesheet">
-    <title>Свойство list-style-type.</title>
+    <title>Интернет-магазин</title>
 <style>
       ol {
         list-style-type: square;
