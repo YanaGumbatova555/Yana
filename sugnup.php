@@ -44,12 +44,12 @@
 		
 		    
 		    if(count($data) == 0) {
-        $sql_insert = "INSERT INTO t1 (lastname, name, middlename, Email, login, password) VALUES (?,?,?,?,?,?)";
+        $sql_insert = "INSERT INTO t1 (lastname, name, middlename, email, login, password) VALUES (?,?,?,?,?,?)";
 	$stmt = $conn->prepare($sql_insert);
 	$stmt->bindValue(1, $lastname);
 	$stmt->bindValue(2, $name);
 	$stmt->bindValue(3, $middlename);
-	$stmt->bindValue(4, $Email);
+	$stmt->bindValue(4, $email);
 	$stmt->bindValue(5, $login);
 	$stmt->bindValue(6, $password);
 	$stmt->execute();
