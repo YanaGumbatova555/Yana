@@ -20,8 +20,16 @@ a:hover {
   border-radius: 0 0 12px 12px;
 }
 
+.container img {
+  width: 120px;
+  height: 120px;
+  margin: -60px 0 30px 0;
+  border: 5px solid #1a394f;
+  border-radius: 50%;
+  box-shadow: 0 -5px 0 rgba(51, 114, 237, 0.26);
+}
 
-input[type="text"], input[type="password"],{
+input[type="text"], input[type="password"], input[type="date"] {
   width: 300px;
   height: 50px;
   font-size: 18px;
@@ -53,12 +61,7 @@ input[type="text"], input[type="password"],{
   border-radius: 50px;
 }
 
-dws-input::before {
-font-family: "FontAwesome";
-content:  "\f007";
-   position: absolute;
-   font-size: 30px;
-	padding: 10px 0 0 7px;}
+
 
 
 
