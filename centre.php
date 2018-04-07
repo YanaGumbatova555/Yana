@@ -1,9 +1,5 @@
-<html>
-<head>
 <div class="centre">
-@YanaGumbatova
+тут будет корзина
 </div>
-    
-</head>    
-</html>
+
 
