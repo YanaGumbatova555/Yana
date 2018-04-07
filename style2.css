@@ -10,16 +10,6 @@ a:hover {
   text-decoration: none;
 }
 
-.container {
-  width: 450px;
-  height: 450px;
-  background-color: rgba(24, 33, 52, 0.7);
-  margin: 250px auto 0 auto;
-  text-align: center;
-  box-shadow: 0 -5px 0 rgba(51, 114, 237, 0.26);
-  border-radius: 0 0 12px 12px;
-}
-
 
 input[type="text"], input[type="password"] {
   width: 300px;
