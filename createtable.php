@@ -1,6 +1,10 @@
-<?php
+<?
+$dsn = "sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = insurance";
+$login = "Yana";
+$pass = "Sobachka.1";
+
 try {
-    $conn = new PDO("sqlsrv:server = tcp:servgumb.database.windows.net,1433; Database = db1", "Yana", "Sobachka.1");
+    $conn = new PDO($dsn, $login, $pass);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $sql = "CREATE TABLE table1(
@@ -12,9 +16,9 @@ $sql = "CREATE TABLE table1(
     Email VARCHAR(30),
     login VARCHAR(30),
     password VARCHAR(30),
-    password2 VARCHAR(30);
-    )";
+    password2 VARCHAR(30)";
     $conn->query($sql);
+    
     echo "<h3>Таблица создана!</h3>"; 
 }
 catch (PDOException $e) {
