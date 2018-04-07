@@ -1,8 +1,8 @@
 <head>
-<link href="style.css" rel="stylesheet">
-
+<link href="/style.css" rel="stylesheet">
 </head>
 
 <div class="header"> 
- Магазин одежды
-    </div>
+<button formaction="/index.php">Вход</button>
+<button formaction="/sugnup.php">Регистрация</button>
+</div>
