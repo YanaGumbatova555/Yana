@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-	<html>
+<html>
   <head>
 <link rel="stylesheet" href="/style.css">
 </head>
     
 <body>
 <div class="header"> 
-<button formaction="index.php">Вход</button>
-<button formaction="sugnup.php">Регистрация</button>
+<ul>
+  <li><a href="\index.php"> АКЦИЯ</a></li>
+  <li><a href="\sugnup.php"> Женская одежда</a></li>
+</ul>
 </div>
-    </body>
+</body>
+</html>
+
