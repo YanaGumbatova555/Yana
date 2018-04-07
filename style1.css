@@ -74,9 +74,11 @@ input[type="text"], input[type="password"], input[type="date"] {
   box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
 }
 
+
+
 .container {
 	      width: 300px;
-	      height: 620px;
+	      height: 380px;
 	      margin: 100px auto 0 auto;
 	      text-align: center;
 	      background-color: #afacaa;
